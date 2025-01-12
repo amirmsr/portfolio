@@ -5,6 +5,7 @@ import Main from "./components/Main/Main";
 
 import PhotoSection from "./components/Section-Photo/PhotoSection";
 import GraphismeSection from "./components/Section-Graphisme/GraphismeSection";
+import PhotoGalleryMaroc from "./components/Section-Photo/PhotoGalleryMaroc";
 
 const App: React.FC = () => {
   return (
@@ -14,6 +15,7 @@ const App: React.FC = () => {
         <Route path="/" element={<Main />} />
         <Route path="/photo-section" element={<PhotoSection />} />
         <Route path="/graphisme-section" element={<GraphismeSection />} />
+        <Route path="/projet-maroc" element={<PhotoGalleryMaroc/>}/>
       </Routes>
     </Router>
   );
