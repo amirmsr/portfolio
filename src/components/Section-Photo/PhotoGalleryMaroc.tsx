@@ -5,7 +5,7 @@ import '../Section-Photo/section-photo.css';
 function UncontrolledExample() {
   return (
     <main className="container text-center mt-5">
-      <h1 className="mb-4">Photo section</h1>
+      <h1 className="mb-4">Projet Maroc</h1>
       <div className="carousel-container">
         <Carousel>
           <Carousel.Item >
