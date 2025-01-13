@@ -20,7 +20,7 @@ export default function PhotoCard({
   button2Label = "Learn More",
 }: PhotoCardProps) {
   return (
-    <Card sx={{ maxWidth: "100%" }}>
+    <Card sx={{ maxWidth: "100%", borderRadius:'0px' }}>
       <CardMedia
         sx={{ height: 340 }}
         image={image}

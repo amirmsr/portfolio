@@ -20,7 +20,7 @@ export default function GraphismeCard({
   button2Label = "Learn More",
 }: GraphismeCardProps) {
   return (
-    <Card sx={{ maxWidth: "100%" }}>
+    <Card sx={{ maxWidth: "100%",borderRadius:'0px' }}>
       <CardMedia
         sx={{ height: 340 }}
         image={image}
