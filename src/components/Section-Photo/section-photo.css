@@ -29,15 +29,15 @@
 
 
 .accordion-header {
-  padding: 10px 15px;
+  padding: 10px 15px 10px 15px;
   background-color: #f1f1f1;
   cursor: pointer;
-  transition: background-color 0.3s ease;
+  border-bottom: 1px solid;
+  text-align:left;
 }
 
 
 .accordion-header:hover {
-  background-color: #f1f1f1;
   color: #8f8f8f ;
 }
 
