@@ -1,27 +1,24 @@
 import React from "react";
 import styles from "./Main.module.css";
 import { Link } from "react-router-dom";
+
 const Main: React.FC = () => {
   return (
-    <main className="container text-center mt-5">
+    <main className="container text-center mt-5 ">
       <h1 className="mb-4">Amir Mansour</h1>
-      <br /><br />
-      <div className="row justify-content-center">
-        <div className="col-12 col-md-4 mb-3">
-        <Link to={"/photo-section"}>
-        <button className={styles.button} >Section photo</button>
-        </Link>
-        </div>
-        <div className="col-12 col-md-4 mb-3">
-        <Link to="/graphisme-section">
-          <button className={styles.button}>Section graphisme</button>
-        </Link>
-        </div>
-        <div className="col-12 col-md-4 mb-3">
-        <Link to="/graph">
-          <button className={styles.button}>Section design</button>
-        </Link>        </div>
+      <br></br>
+      <div>
+        <img
+          className={styles.responsiveImage}
+          src="https://gzpauqtc6hrhhsyz.public.blob.vercel-storage.com/section%20photo%20maroc%20galery/AC79ACB4-4795-4F1E-A521-CFD51019CC2B_1_105_c-JHlYd2v9EiTv474HzhasB57zsehrPg.webp"
+          alt=""
+        />
       </div>
+      <br />
+      <br />
+      <Link to="/photo-section">
+        <p className={`${styles.lien} ${styles.centered}`}>Découvrir</p>
+      </Link>
     </main>
   );
 };

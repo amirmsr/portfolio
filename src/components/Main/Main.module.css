@@ -6,22 +6,35 @@
     padding: 20px;
 }
 
-.button {
-    background-color: #1f1f1f; 
-    color: #f1f1f1; 
-    border: none; 
-    padding: 10px 20px; 
-    font-size: 16px; 
-    font-family: Arial, sans-serif; 
-    text-align: center; 
-    cursor: pointer; 
-    width: 100%; 
-    max-width: 250px; 
-    transition: background-color 0.3s ease, color 0.3s ease; 
-  }
-  
-  
-  .button:hover {
-    background-color: #f1f1f1; 
-    color: #1f1f1f; 
-  }
+.responsiveImage {
+  width: 70%; 
+  max-height: 60vh; 
+  object-fit: cover; 
+  object-position: center;
+}
+
+.lien {
+  color: #1f1f1f;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  max-width: 250px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  text-decoration: underline;
+  margin: 0 auto;
+  display: block;
+}
+
+.lien:hover {
+  color: #868686;
+  text-decoration: underline;
+}
+
+.centered {
+  margin: 0 auto;
+  text-align: center;
+}
