@@ -4,7 +4,7 @@ import '../section-photo.css';
 
 function ProjetMarocGalleryMob() {
   return (
-    <main className="container text-center mt-5">
+    <main style={{textAlign:"center", margin:"50px 0px 0px 0px"}}>
       <h1 className="mb-4">Projet Maroc</h1>
       <div className="carousel-container">
         <Carousel>
