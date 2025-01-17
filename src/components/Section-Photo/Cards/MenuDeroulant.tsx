@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Col, Row } from "react-bootstrap";
+import { Link } from "react-router-dom";
 
 const MenuDeroulant: React.FC = () => {
   const [activeIndex, setActiveIndex] = useState<number | null>(-1);
@@ -13,28 +14,29 @@ const MenuDeroulant: React.FC = () => {
       <div className="accordion-item">
         <div
           className={`accordion-header ${activeIndex === 0 ? "active" : ""}`}
-          onClick={() => toggleAccordion(0)}
         >
-          <p>Projet maroc </p>
+          <Link className="link"  to={"projet-maroc"}>
+            Projet maroc
+          </Link>
         </div>
         {activeIndex === 0 && (
           <div className="accordion-body">
             <Row style={{ paddingBottom: "50px" }}>
-              <Col className="animate__animated animate__fadeIn" >
+              <Col className="animate__animated animate__fadeIn">
                 <img
                   className="img-fluid"
                   src="https://gzpauqtc6hrhhsyz.public.blob.vercel-storage.com/section%20photo%20maroc%20galery/DSC02815-OnpVfcQOJOIV2nnbahf7GcTSxUMEzY.webp"
                   alt=""
                 />
               </Col>
-              <Col className="animate__animated animate__fadeIn" >
+              <Col className="animate__animated animate__fadeIn">
                 <img
                   className="img-fluid"
                   src="https://gzpauqtc6hrhhsyz.public.blob.vercel-storage.com/section%20photo%20maroc%20galery/DSC02820-31CiHP26rn4iED2AVWqDUEHn54lRmo.webp"
                   alt=""
                 />
               </Col>
-              <Col className="animate__animated animate__fadeIn" >
+              <Col className="animate__animated animate__fadeIn">
                 <img
                   className="img-fluid"
                   src="https://gzpauqtc6hrhhsyz.public.blob.vercel-storage.com/section%20photo%20maroc%20galery/DSC02836-I9Ohw2KPRJ0UVEhCVjqVAU7JHhcPYd.webp"
@@ -42,7 +44,6 @@ const MenuDeroulant: React.FC = () => {
                 />
               </Col>
             </Row>
-            
           </div>
         )}
       </div>

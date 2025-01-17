@@ -14,8 +14,6 @@ const Main: React.FC = () => {
           alt=""
         />
       </div>
-      <br />
-      <br />
       <Link to="/photo-section">
         <p className={`${styles.lien} ${styles.centered}`}>Découvrir</p>
       </Link>

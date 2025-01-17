@@ -4,7 +4,8 @@ import Header from "./components/Header/Header";
 import Main from "./components/Main/Main";
 
 import PhotoSection from "./components/Section-Photo/PhotoSection";
-import PhotoGalleryMaroc from "./components/Section-Photo/PhotoGalleryMaroc";
+import ProjetMarocGallery from "./components/Section-Photo/Projet-Maroc/ProjetMarocGallery";
+import ProjetMarocGalleryMob from "./components/Section-Photo/Projet-Maroc/ProjetMarocGalleryMob";
 
 const App: React.FC = () => {
   return (
@@ -13,7 +14,8 @@ const App: React.FC = () => {
       <Routes>
         <Route path="/" element={<Main />} />
         <Route path="/photo-section" element={<PhotoSection />} />
-        <Route path="/projet-maroc" element={<PhotoGalleryMaroc/>}/>
+        <Route path="/photo-section/projet-marocMob" element={<ProjetMarocGalleryMob/>}/>
+        <Route path="/photo-section/projet-maroc" element={<ProjetMarocGallery/>}/>
       </Routes>
     </Router>
   );
