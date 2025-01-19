@@ -16,10 +16,10 @@ const Header: React.FC = () => {
         <div className={`${styles.line} ${menuOpen ? styles.active : ""}`}></div>
       </div>
       <nav className={`${styles.nav} ${menuOpen ? styles.open : ""}`}>
-        <a href="/">Accueil</a>
-        <a href="/photo-section">Projet</a>
-        <a href="/">A propos</a>
-        <a href="/">Contact</a>
+        <a style={{fontSize:"2rem"}} href="/">Amir Mansour</a>
+        <a style={{paddingTop:"24px"}} href="/photo-section">Projet</a>
+        <a style={{paddingTop:"24px"}} href="/">A propos</a>
+        <a style={{paddingTop:"24px"}} href="/">Contact</a>
       </nav>
     </header>
   );

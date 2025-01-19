@@ -4,8 +4,8 @@ import Header from "./components/Header/Header";
 import Main from "./components/Main/Main";
 
 import PhotoSection from "./components/Section-Photo/PhotoSection";
-import ProjetMarocGallery from "./components/Section-Photo/Projet-Maroc/ProjetMarocGallery";
-import ProjetMarocGalleryMob from "./components/Section-Photo/Projet-Maroc/ProjetMarocGalleryMob";
+import ProjetMarocGallery from "./components/Section-Photo/Maroc-projet/ProjetMarocGallery";
+import ProjetMarocGalleryMob from "./components/Section-Photo/Maroc-projet/ProjetMarocGalleryMob";
 
 const App: React.FC = () => {
   return (

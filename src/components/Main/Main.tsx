@@ -7,8 +7,6 @@ import { grey } from "@mui/material/colors";
 const Main: React.FC = () => {
   return (
     <main className="container text-center mt-5 ">
-      <h1 className="mb-4">Amir Mansour</h1>
-      <br></br>
       <div>
         <img
           className={styles.responsiveImage}

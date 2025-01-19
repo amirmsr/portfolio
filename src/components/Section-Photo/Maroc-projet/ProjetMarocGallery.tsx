@@ -12,7 +12,7 @@ const ProjetMarocGallery: React.FC = () => {
 
   return (
     <main className="container text-center mt-5">
-      <h1 className="mb-4">Amir Mansour</h1>
+      <p style={{fontSize:"1.3rem"}}>Projet Maroc</p>
       <br />
       <br />
       <div className="gallery-container">
