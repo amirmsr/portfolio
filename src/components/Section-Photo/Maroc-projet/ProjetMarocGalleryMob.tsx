@@ -4,7 +4,7 @@ import '../section-photo.css';
 
 function ProjetMarocGalleryMob() {
   return (
-    <main style={{textAlign:"center", margin:"50px 0px 0px 0px", overflowY:"hidden"}}>
+    <main style={{textAlign:"center", margin:"50px 0px 0px 0px", overflowY:"hidden", paddingTop:"50px"}}>
       <p style={{fontSize:"1.3rem"}}>Projet Maroc</p>
       <div className="carousel-container">
         <Carousel>

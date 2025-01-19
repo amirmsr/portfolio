@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 
 const PhotoSection: React.FC = () => {
   return (
-    <main className="container text-center mt-5">
+    <main className="container text-center mt-5" style={{paddingTop:"50px"}}>
       <p style={{fontSize:"1.3rem"}}>Liste des projets</p>
       <br /><br />
       <div className="link-container">

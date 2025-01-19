@@ -6,7 +6,7 @@ import { grey } from "@mui/material/colors";
 
 const Main: React.FC = () => {
   return (
-    <main className="container text-center mt-5 ">
+    <main className="container text-center mt-5 " style={{paddingTop:"50px"}}>
       <div>
         <img
           className={styles.responsiveImage}
