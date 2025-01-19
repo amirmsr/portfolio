@@ -22,7 +22,7 @@ function ProjetMarocGalleryMob() {
           </Carousel.Item>
           <Carousel.Item>
             <img
-             src="https://gzpauqtc6hrhhsyz.public.blob.vercel-storage.com/section%20photo%20maroc%20galery/B0ACF3C5-A053-463F-847C-6BEB668F45CA_4_5005_c-a16ry9O15366WRKqYsg7oisqRacSKw.webp"
+             src="https://gzpauqtc6hrhhsyz.public.blob.vercel-storage.com/section%20photo%20maroc%20galery/B0ACF3C5-A053-463F-847C-6BEB668F45CA_1_201_a-1FvDQIaGzGxHRn3wlMadLQmGbnsnhI.jpeg"
               alt=""
             />
           </Carousel.Item>
@@ -60,13 +60,6 @@ function ProjetMarocGalleryMob() {
             <img
               width={"%"}
              src="https://gzpauqtc6hrhhsyz.public.blob.vercel-storage.com/section%20photo%20maroc%20galery/DSC02848-AHKvooAwffW1MLaXKlWcHtKYkV9j5j.webp"
-              alt=""
-            />
-          </Carousel.Item>
-          <Carousel.Item>
-            <img
-              width={"%"}
-             src="https://gzpauqtc6hrhhsyz.public.blob.vercel-storage.com/section%20photo%20maroc%20galery/DSC02852-S4tutsySPJlWfCwxd6149elFMm1Trv.webp"
               alt=""
             />
           </Carousel.Item>

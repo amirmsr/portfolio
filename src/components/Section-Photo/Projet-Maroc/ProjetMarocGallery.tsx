@@ -19,7 +19,7 @@ const ProjetMarocGallery: React.FC = () => {
         <Row>
           <Col xs={12} sm={6} md={4}>
             <img
-              src="https://gzpauqtc6hrhhsyz.public.blob.vercel-storage.com/section%20photo%20maroc%20galery/6C89EAC4-A875-404E-99ED-5B668AB46931_1_105_c-MXDGN6o3OhjKYRZPtT7Zonp9b01yyH.webp"
+              src="https://gzpauqtc6hrhhsyz.public.blob.vercel-storage.com/section%20photo%20maroc%20galery/DSC02805-KzCcFlgwQxDVuKBeAQrowcTzfuoTkl.webp"
               alt=""
               style={{
                 width: "100%",
@@ -43,7 +43,7 @@ const ProjetMarocGallery: React.FC = () => {
           </Col>
           <Col xs={12} sm={6} md={4}>
             <img
-              src="https://gzpauqtc6hrhhsyz.public.blob.vercel-storage.com/section%20photo%20maroc%20galery/B0ACF3C5-A053-463F-847C-6BEB668F45CA_4_5005_c-a16ry9O15366WRKqYsg7oisqRacSKw.webp"
+              src="https://gzpauqtc6hrhhsyz.public.blob.vercel-storage.com/section%20photo%20maroc%20galery/B0ACF3C5-A053-463F-847C-6BEB668F45CA_1_201_a-1FvDQIaGzGxHRn3wlMadLQmGbnsnhI.jpeg"
               alt=""
               style={{
                 width: "100%",
@@ -95,7 +95,7 @@ const ProjetMarocGallery: React.FC = () => {
         <Row>
           <Col xs={12} sm={6} md={4}>
             <img
-              src="https://gzpauqtc6hrhhsyz.public.blob.vercel-storage.com/section%20photo%20maroc%20galery/DSC02805-KzCcFlgwQxDVuKBeAQrowcTzfuoTkl.webp"
+              src="https://gzpauqtc6hrhhsyz.public.blob.vercel-storage.com/section%20photo%20maroc%20galery/6C89EAC4-A875-404E-99ED-5B668AB46931_1_105_c-MXDGN6o3OhjKYRZPtT7Zonp9b01yyH.webp"
               alt=""
               style={{
                 width: "100%",
