@@ -4,7 +4,7 @@ import '../section-photo.css';
 
 function ProjetMarocGalleryMob() {
   return (
-    <main style={{textAlign:"center", margin:"50px 0px 0px 0px"}}>
+    <main style={{textAlign:"center", margin:"50px 0px 0px 0px", overflowY:"hidden"}}>
       <h1 className="mb-4">Projet Maroc</h1>
       <div className="carousel-container">
         <Carousel>
@@ -34,13 +34,13 @@ function ProjetMarocGalleryMob() {
           </Carousel.Item>
           <Carousel.Item>
             <img
-             src="https://gzpauqtc6hrhhsyz.public.blob.vercel-storage.com/section%20photo%20maroc%20galery/DSC02815-OnpVfcQOJOIV2nnbahf7GcTSxUMEzY.webp"
+             src="https://gzpauqtc6hrhhsyz.public.blob.vercel-storage.com/section%20photo%20maroc%20galery/DSC02815-olKqd7YQ1U5IdUuMMVzaZipZVHQ4mx.webp"
               alt=""
             />
           </Carousel.Item>
           <Carousel.Item>
             <img
-             src="https://gzpauqtc6hrhhsyz.public.blob.vercel-storage.com/section%20photo%20maroc%20galery/DSC02820-31CiHP26rn4iED2AVWqDUEHn54lRmo.webp"
+             src="https://gzpauqtc6hrhhsyz.public.blob.vercel-storage.com/section%20photo%20maroc%20galery/DSC02836-E91ZwPUIayKbSdd3irzT9NtiiV26XJ.webp"
               alt=""
             />
           </Carousel.Item>
@@ -52,14 +52,14 @@ function ProjetMarocGalleryMob() {
           </Carousel.Item>
           <Carousel.Item>
             <img
-             src="https://gzpauqtc6hrhhsyz.public.blob.vercel-storage.com/section%20photo%20maroc%20galery/DSC02846-3ZKBl82atCTRt8Akh8ypi4jcQQrSbN.webp"
+             src="https://gzpauqtc6hrhhsyz.public.blob.vercel-storage.com/section%20photo%20maroc%20galery/DSC02846-Oxw8MMKkXNcuAGeeX3foRXvjcytPC5.webp"
               alt=""
             />
           </Carousel.Item>
           <Carousel.Item>
             <img
               width={"%"}
-             src="https://gzpauqtc6hrhhsyz.public.blob.vercel-storage.com/section%20photo%20maroc%20galery/DSC02848-vXDkGl0Ppr1KLO3Ucldcr694NBSCJ1.webp"
+             src="https://gzpauqtc6hrhhsyz.public.blob.vercel-storage.com/section%20photo%20maroc%20galery/DSC02848-AHKvooAwffW1MLaXKlWcHtKYkV9j5j.webp"
               alt=""
             />
           </Carousel.Item>

@@ -19,7 +19,7 @@ const ProjetMarocGallery: React.FC = () => {
         <Row>
           <Col xs={12} sm={6} md={4}>
             <img
-              src="https://gzpauqtc6hrhhsyz.public.blob.vercel-storage.com/section%20photo%20maroc%20galery/AC79ACB4-4795-4F1E-A521-CFD51019CC2B_1_105_c-JHlYd2v9EiTv474HzhasB57zsehrPg.webp"
+              src="https://gzpauqtc6hrhhsyz.public.blob.vercel-storage.com/section%20photo%20maroc%20galery/6C89EAC4-A875-404E-99ED-5B668AB46931_1_105_c-MXDGN6o3OhjKYRZPtT7Zonp9b01yyH.webp"
               alt=""
               style={{
                 width: "100%",
@@ -31,7 +31,7 @@ const ProjetMarocGallery: React.FC = () => {
           </Col>
           <Col xs={12} sm={6} md={4}>
             <img
-              src="https://gzpauqtc6hrhhsyz.public.blob.vercel-storage.com/section%20photo%20maroc%20galery/6C89EAC4-A875-404E-99ED-5B668AB46931_1_105_c-MXDGN6o3OhjKYRZPtT7Zonp9b01yyH.webp"
+              src="https://gzpauqtc6hrhhsyz.public.blob.vercel-storage.com/section%20photo%20maroc%20galery/DSC02848-AHKvooAwffW1MLaXKlWcHtKYkV9j5j.webp"
               alt=""
               style={{
                 width: "100%",
@@ -57,7 +57,7 @@ const ProjetMarocGallery: React.FC = () => {
         <Row>
           <Col xs={12} sm={6} md={4}>
             <img
-              src="https://gzpauqtc6hrhhsyz.public.blob.vercel-storage.com/section%20photo%20maroc%20galery/DSC02805-QcYlfP9siTc20y2VanM3y0QbKbhuZq.webp"
+              src="https://gzpauqtc6hrhhsyz.public.blob.vercel-storage.com/section%20photo%20maroc%20galery/DSC02846-Oxw8MMKkXNcuAGeeX3foRXvjcytPC5.webp"
               alt=""
               style={{
                 width: "100%",
@@ -69,7 +69,7 @@ const ProjetMarocGallery: React.FC = () => {
           </Col>
           <Col xs={12} sm={6} md={4}>
             <img
-              src="https://gzpauqtc6hrhhsyz.public.blob.vercel-storage.com/section%20photo%20maroc%20galery/DSC02815-OnpVfcQOJOIV2nnbahf7GcTSxUMEzY.webp"
+              src="https://gzpauqtc6hrhhsyz.public.blob.vercel-storage.com/section%20photo%20maroc%20galery/DSC02815-olKqd7YQ1U5IdUuMMVzaZipZVHQ4mx.webp"
               alt=""
               style={{
                 width: "100%",
@@ -81,8 +81,46 @@ const ProjetMarocGallery: React.FC = () => {
           </Col>
           <Col xs={12} sm={6} md={4}>
             <img
-              src="https://gzpauqtc6hrhhsyz.public.blob.vercel-storage.com/section%20photo%20maroc%20galery/DSC02820-31CiHP26rn4iED2AVWqDUEHn54lRmo.webp"
+             src="https://gzpauqtc6hrhhsyz.public.blob.vercel-storage.com/section%20photo%20maroc%20galery/DSC02852-S4tutsySPJlWfCwxd6149elFMm1Trv.webp"
               alt=""
+              style={{
+                width: "100%",
+                height: "100%",
+                objectFit: "cover",
+              }}
+              className="animate__animated animate__fadeIn"
+            />
+          </Col>
+        </Row>
+        <Row>
+          <Col xs={12} sm={6} md={4}>
+            <img
+              src="https://gzpauqtc6hrhhsyz.public.blob.vercel-storage.com/section%20photo%20maroc%20galery/DSC02805-KzCcFlgwQxDVuKBeAQrowcTzfuoTkl.webp"
+              alt=""
+              style={{
+                width: "100%",
+                height: "100%",
+                objectFit: "cover",
+              }}
+              className="animate__animated animate__fadeIn"
+            />
+          </Col>
+          <Col xs={12} sm={6} md={4}>
+            <img
+             src="https://gzpauqtc6hrhhsyz.public.blob.vercel-storage.com/section%20photo%20maroc%20galery/DSC02836-E91ZwPUIayKbSdd3irzT9NtiiV26XJ.webp"
+             alt=""
+              style={{
+                width: "100%",
+                height: "100%",
+                objectFit: "cover",
+              }}
+              className="animate__animated animate__fadeIn"
+            />
+          </Col>
+          <Col xs={12} sm={6} md={4}>
+            <img
+             src="https://gzpauqtc6hrhhsyz.public.blob.vercel-storage.com/section%20photo%20maroc%20galery/AC79ACB4-4795-4F1E-A521-CFD51019CC2B_1_105_c-JHlYd2v9EiTv474HzhasB57zsehrPg.webp"
+             alt=""
               style={{
                 width: "100%",
                 height: "100%",

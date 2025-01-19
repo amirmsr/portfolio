@@ -6,7 +6,7 @@
 
 .carousel-item img {
   width: 100%;
-  height: 500px; 
+  height: 400px; 
   object-fit: cover; 
 }
 
@@ -15,51 +15,33 @@ margin-bottom: 50px;
 }
 
 
-.accordion-container {
+.link-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: left;
+}
+
+.link-item {
   width: 100%;
-  margin: 0 auto;
+  border-bottom: 1px solid #1f1f1f; 
+  padding: 10px 0; 
+  margin-bottom: 10px;
 }
 
-
-.accordion-item {
-  overflow: hidden;
+.link-item:first-child {
+  border-top: none; 
 }
-.accordion-item .link{
+.link-item:hover {
+  border-color: #868686; 
+}
+
+.link-item:hover .link {
+  color: #868686; 
+}
+
+.link {
   text-decoration: none;
-  color: #1f1f1f;
-}
-
-
-
-.accordion-header {
-  padding: 10px 15px 10px 15px;
-  background-color: #f1f1f1;
-  cursor: pointer;
-  border-bottom: 1px solid;
-  text-align:left;
-}
-
-
-.accordion-header:hover {
-  color: #8f8f8f ;
-}
-
-
-.accordion-body {
-  padding: 10px 15px;
-  transition: max-height 0.3s ease, opacity 0.3s ease;
-}
-.accordion-body .col{
-  padding: 30px;
-}
-
-.accordion-header.active {
-  color: #8f8f8f; 
-}
-
-
-.accordion-body .row {
-  justify-content: center; 
-  margin-bottom: 20px; 
+  color: inherit;
 }
 

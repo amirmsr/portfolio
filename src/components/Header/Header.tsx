@@ -17,8 +17,9 @@ const Header: React.FC = () => {
       </div>
       <nav className={`${styles.nav} ${menuOpen ? styles.open : ""}`}>
         <a href="/">Accueil</a>
-        <a href="/">À propos</a>
-        <a href="#contact">Contact</a>
+        <a href="/photo-section">Projet</a>
+        <a href="/">A propos</a>
+        <a href="/">Contact</a>
       </nav>
     </header>
   );
