@@ -10,8 +10,8 @@
   object-fit: cover; 
 }
 
-.gallery-container .row{
-margin-bottom: 50px;
+.gallery-container .row .col{
+  margin-bottom: 50px;
 }
 
 
@@ -24,7 +24,7 @@ margin-bottom: 50px;
 
 .link-item {
   width: 100%;
-  border-bottom: 1px solid #1f1f1f; 
+/*   border-bottom: 1px solid #1f1f1f;  */
   padding: 10px 0; 
   margin-bottom: 10px;
 }
