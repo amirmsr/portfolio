@@ -7,10 +7,10 @@ import { grey } from "@mui/material/colors";
 const Main: React.FC = () => {
   return (
     <main className="container text-center mt-5 " style={{paddingTop:"50px"}}>
-      <div>
+      <div className="animate__animated animate__fadeIn">
         <img
-          className={styles.responsiveImage}
-          src="https://gzpauqtc6hrhhsyz.public.blob.vercel-storage.com/section%20photo%20maroc%20galery/AC79ACB4-4795-4F1E-A521-CFD51019CC2B_1_105_c-JHlYd2v9EiTv474HzhasB57zsehrPg.webp"
+          className={styles.responsiveImage} 
+          src="https://gzpauqtc6hrhhsyz.public.blob.vercel-storage.com/section%20photo%20maroc%20galery/DSC02805-2hRCliUJyN3QyabNrz6iEeeZd7gs5j.webp"
           alt=""
         />
       </div>
