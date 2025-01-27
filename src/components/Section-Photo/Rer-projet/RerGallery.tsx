@@ -1,14 +1,7 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
-/* import { useMediaQuery } from "react-responsive";
-import ProjetMarocGalleryMob from "./ProjetMarocGalleryMob"; */
 
-const ProjetMarocGallery: React.FC = () => {
-/*   const isMobile = useMediaQuery({ maxWidth: 768 });
-
-  if (isMobile) {
-    return <ProjetMarocGalleryMob />;
-  } */
+const RerGallery: React.FC = () => {
 
   return (
     <main className="container text-center mt-5 " style={{paddingTop:"50px"}}>
@@ -19,7 +12,7 @@ const ProjetMarocGallery: React.FC = () => {
         <Row>
           <Col className="col" xs={12} sm={6} md={4}>
             <img
-              src="https://gzpauqtc6hrhhsyz.public.blob.vercel-storage.com/section%20photo%20maroc%20galery/DSC02805-KzCcFlgwQxDVuKBeAQrowcTzfuoTkl.webp"
+              src="https://gzpauqtc6hrhhsyz.public.blob.vercel-storage.com/section%20photo%20rer%20galery/DSCN0070-min-iO7nBJWbGa9tH9oHuRbuqX7LpwGz9L.webp"
               alt=""
               style={{
                 width: "100%",
@@ -31,7 +24,7 @@ const ProjetMarocGallery: React.FC = () => {
           </Col>
           <Col className="col" xs={12} sm={6} md={4}>
             <img
-              src="https://gzpauqtc6hrhhsyz.public.blob.vercel-storage.com/section%20photo%20maroc%20galery/DSC02848-AHKvooAwffW1MLaXKlWcHtKYkV9j5j.webp"
+              src="https://gzpauqtc6hrhhsyz.public.blob.vercel-storage.com/section%20photo%20rer%20galery/DSCN0060-min-DzYQM9IGGlbbfrP2Hnp7vndKSOCFGJ.webp"
               alt=""
               style={{
                 width: "100%",
@@ -43,45 +36,7 @@ const ProjetMarocGallery: React.FC = () => {
           </Col>
           <Col className="col" xs={12} sm={6} md={4}>
             <img
-              src="https://gzpauqtc6hrhhsyz.public.blob.vercel-storage.com/section%20photo%20maroc%20galery/B0ACF3C5-A053-463F-847C-6BEB668F45CA_1_201_a-1FvDQIaGzGxHRn3wlMadLQmGbnsnhI.jpeg"
-              alt=""
-              style={{
-                width: "100%",
-                height: "100%",
-                objectFit: "cover",
-              }}
-              className="animate__animated animate__fadeIn"
-            />
-          </Col>
-        </Row>
-        <Row>
-          <Col className="col" xs={12} sm={6} md={4}>
-            <img
-              src="https://gzpauqtc6hrhhsyz.public.blob.vercel-storage.com/section%20photo%20maroc%20galery/DSC02846-Oxw8MMKkXNcuAGeeX3foRXvjcytPC5.webp"
-              alt=""
-              style={{
-                width: "100%",
-                height: "100%",
-                objectFit: "cover",
-              }}
-              className="animate__animated animate__fadeIn"
-            />
-          </Col>
-          <Col className="col" xs={12} sm={6} md={4}>
-            <img
-              src="https://gzpauqtc6hrhhsyz.public.blob.vercel-storage.com/section%20photo%20maroc%20galery/DSC02815-olKqd7YQ1U5IdUuMMVzaZipZVHQ4mx.webp"
-              alt=""
-              style={{
-                width: "100%",
-                height: "100%",
-                objectFit: "cover",
-              }}
-              className="animate__animated animate__fadeIn"
-            />
-          </Col>
-          <Col className="col" xs={12} sm={6} md={4}>
-            <img
-             src="https://gzpauqtc6hrhhsyz.public.blob.vercel-storage.com/section%20photo%20maroc%20galery/DSC02852-S4tutsySPJlWfCwxd6149elFMm1Trv.webp"
+              src="https://gzpauqtc6hrhhsyz.public.blob.vercel-storage.com/section%20photo%20rer%20galery/DSCN0057-min-qd8Ogr9K2o4klvDseDRJj9qgDKKxlG.webp"
               alt=""
               style={{
                 width: "100%",
@@ -95,7 +50,7 @@ const ProjetMarocGallery: React.FC = () => {
         <Row>
           <Col className="col" xs={12} sm={6} md={4}>
             <img
-              src="https://gzpauqtc6hrhhsyz.public.blob.vercel-storage.com/section%20photo%20maroc%20galery/6C89EAC4-A875-404E-99ED-5B668AB46931_1_105_c-MXDGN6o3OhjKYRZPtT7Zonp9b01yyH.webp"
+              src="https://gzpauqtc6hrhhsyz.public.blob.vercel-storage.com/section%20photo%20rer%20galery/DSCN0044-min-0qVHS4liX6b8xIwqcwWz5YBmAtza1q.webp"
               alt=""
               style={{
                 width: "100%",
@@ -107,9 +62,8 @@ const ProjetMarocGallery: React.FC = () => {
           </Col>
           <Col className="col" xs={12} sm={6} md={4}>
             <img
-             src="https://gzpauqtc6hrhhsyz.public.blob.vercel-storage.com/section%20photo%20maroc%20galery/DSC02813-maOvmGpSV6Jk2EwPuot1tFuBGQYRdt.webp
-"
-             alt=""
+              src="https://gzpauqtc6hrhhsyz.public.blob.vercel-storage.com/section%20photo%20rer%20galery/DSCN0043-min-jwYbvBH3kyLW56YpGrt73xKuedg7dG.webp"
+              alt=""
               style={{
                 width: "100%",
                 height: "100%",
@@ -120,8 +74,8 @@ const ProjetMarocGallery: React.FC = () => {
           </Col>
           <Col className="col" xs={12} sm={6} md={4}>
             <img
-             src="https://gzpauqtc6hrhhsyz.public.blob.vercel-storage.com/section%20photo%20maroc%20galery/AC79ACB4-4795-4F1E-A521-CFD51019CC2B_1_105_c-JHlYd2v9EiTv474HzhasB57zsehrPg.webp"
-             alt=""
+              src="https://gzpauqtc6hrhhsyz.public.blob.vercel-storage.com/section%20photo%20rer%20galery/DSCN0039-min-gLjxvFs5oKpU8l8pa0GYWf2DLjeX5X.webp"
+              alt=""
               style={{
                 width: "100%",
                 height: "100%",
@@ -131,15 +85,14 @@ const ProjetMarocGallery: React.FC = () => {
             />
           </Col>
         </Row>
-
         <Row>
           <Col className="col" xs={12} sm={6} md={4}>
             <img
-              src="https://gzpauqtc6hrhhsyz.public.blob.vercel-storage.com/section%20photo%20maroc%20galery/DSC_2064_1_V2-2-5R6Lowm4132vB7vy0pfqE4bDoGwRS0.webp"
+              src="https://gzpauqtc6hrhhsyz.public.blob.vercel-storage.com/section%20photo%20rer%20galery/DSCN0038-min-DFCl6XAo3Qr0O7lHGxZbvrrq8ViWb6.webp"
               alt=""
               style={{
                 width: "100%",
-                height: "80%",
+                height: "100%",
                 objectFit: "cover",
               }}
               className="animate__animated animate__fadeIn"
@@ -147,11 +100,11 @@ const ProjetMarocGallery: React.FC = () => {
           </Col>
           <Col className="col" xs={12} sm={6} md={4}>
             <img
-             src="https://gzpauqtc6hrhhsyz.public.blob.vercel-storage.com/section%20photo%20maroc%20galery/DSC02817-Cf2yhc41pRwLr5oQOBiGxrOfdcSe10.webp"
-             alt=""
+              src="https://gzpauqtc6hrhhsyz.public.blob.vercel-storage.com/section%20photo%20rer%20galery/DSCN0033-min-yC0UZsgftnaXaPCsjwQG6SkJm2RUm9.webp"
+              alt=""
               style={{
                 width: "100%",
-                height: "80%",
+                height: "100%",
                 objectFit: "cover",
               }}
               className="animate__animated animate__fadeIn"
@@ -159,11 +112,37 @@ const ProjetMarocGallery: React.FC = () => {
           </Col>
           <Col className="col" xs={12} sm={6} md={4}>
             <img
-             src="https://gzpauqtc6hrhhsyz.public.blob.vercel-storage.com/section%20photo%20maroc%20galery/DSC02836-E91ZwPUIayKbSdd3irzT9NtiiV26XJ.webp"
-             alt=""
+              src="https://gzpauqtc6hrhhsyz.public.blob.vercel-storage.com/section%20photo%20rer%20galery/DSCN0031-min-nV8HkIzClYp9Wl0VHGGQsFdulVKlzl.webp"
+              alt=""
               style={{
                 width: "100%",
-                height: "80%",
+                height: "100%",
+                objectFit: "cover",
+              }}
+              className="animate__animated animate__fadeIn"
+            />
+          </Col>
+        </Row>
+        <Row>
+          <Col className="col" xs={12} sm={6} md={4}>
+            <img
+              src="https://gzpauqtc6hrhhsyz.public.blob.vercel-storage.com/section%20photo%20rer%20galery/DSCN0030V2-min-kPWEVGcD9PZiT2dAEF87LItHLSHAGB.webp"
+              alt=""
+              style={{
+                width: "100%",
+                height: "100%",
+                objectFit: "cover",
+              }}
+              className="animate__animated animate__fadeIn"
+            />
+          </Col>
+          <Col className="col" xs={12} sm={6} md={4}>
+            <img
+              src="https://gzpauqtc6hrhhsyz.public.blob.vercel-storage.com/section%20photo%20rer%20galery/DSCN0026V2-min-k69lbuM59czARVqWHzxcM5dBz3XZ1A.webp"
+              alt=""
+              style={{
+                width: "100%",
+                height: "100%",
                 objectFit: "cover",
               }}
               className="animate__animated animate__fadeIn"
@@ -175,4 +154,4 @@ const ProjetMarocGallery: React.FC = () => {
   );
 };
 
-export default ProjetMarocGallery;
+export default RerGallery;

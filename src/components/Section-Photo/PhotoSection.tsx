@@ -12,19 +12,13 @@ const PhotoSection: React.FC = () => {
       <div className="link-container">
         <div className="link-item">
           <Link className="link"  to={"projet-maroc"}>
-                Projet maroc
+                Maroc
           </Link>
           <KeyboardDoubleArrowRightIcon sx={{ color: grey[500] }}></KeyboardDoubleArrowRightIcon>
         </div>
         <div className="link-item">
-          <Link className="link"  to={"projet-maroc"}>
-                Projet maroc
-          </Link>
-          <KeyboardDoubleArrowRightIcon sx={{ color: grey[500] }}></KeyboardDoubleArrowRightIcon>
-        </div>
-        <div className="link-item">
-          <Link className="link"  to={"projet-maroc"}>
-                Projet maroc
+          <Link className="link"  to={"projet-rer"}>
+                RER  
           </Link>
           <KeyboardDoubleArrowRightIcon sx={{ color: grey[500] }}></KeyboardDoubleArrowRightIcon>
         </div>
