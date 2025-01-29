@@ -1,8 +1,6 @@
 import React from "react";
 import styles from "./Main.module.css";
 import { Link } from "react-router-dom";
-import KeyboardDoubleArrowRightIcon from '@mui/icons-material/KeyboardDoubleArrowRight';
-import { grey } from "@mui/material/colors";
 
 const Main: React.FC = () => {
   return (
@@ -19,7 +17,6 @@ const Main: React.FC = () => {
         <Link className="link" to="/photo-section">
         Découvrir
         </Link>
-        <KeyboardDoubleArrowRightIcon sx={{ color: grey[500] }}></KeyboardDoubleArrowRightIcon>
       </div>
     </main>
   );

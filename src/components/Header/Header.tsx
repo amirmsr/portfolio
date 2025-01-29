@@ -1,27 +1,25 @@
-import React, { useState } from "react";
-import styles from "./Header.module.css";
+import Container from 'react-bootstrap/Container';
+import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
+
+
+
 
 const Header: React.FC = () => {
-  const [menuOpen, setMenuOpen] = useState(false);
-
-  const toggleMenu = () => {
-    setMenuOpen(!menuOpen);
-  };
-
   return (
-    <header className={styles.header}>
-      <div className={styles.burger} onClick={toggleMenu}>
-        <div className={`${styles.line} ${menuOpen ? styles.active : ""}`}></div>
-        <div className={`${styles.line} ${menuOpen ? styles.active : ""}`}></div>
-        <div className={`${styles.line} ${menuOpen ? styles.active : ""}`}></div>
-      </div>
-      <nav className={`${styles.nav} ${menuOpen ? styles.open : ""}`}>
-        <a style={{fontSize:"2rem"}} href="/">Amir Mansour</a>
-        <a style={{paddingTop:"24px"}} href="/photo-section">Projet</a>
-        <a style={{paddingTop:"24px"}} href="/">A propos</a>
-        <a style={{paddingTop:"24px"}} href="/">Contact</a>
-      </nav>
-    </header>
+    <Navbar expand="lg" style={{backgroundColor:"none", paddingTop:"30px"}}>
+      <Container>
+        <Navbar.Brand href="/">Amir Mansour</Navbar.Brand>
+        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Collapse id="basic-navbar-nav">
+          <Nav className="me-auto">
+            <Nav.Link href="/photo-section">Projet</Nav.Link>
+            <Nav.Link href="/">À propos</Nav.Link>
+            <Nav.Link href="/">Contact</Nav.Link>
+          </Nav>
+        </Navbar.Collapse>
+      </Container>
+    </Navbar>
   );
 };
 

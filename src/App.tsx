@@ -3,10 +3,10 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Header from "./components/Header/Header";
 import Main from "./components/Main/Main";
 
-import PhotoSection from "./components/Section-Photo/PhotoSection";
-import MarocGallery from "./components/Section-Photo/Maroc-projet/MarocGallery";
-import ProjetMarocGalleryMob from "./components/Section-Photo/Maroc-projet/MarocGalleryMob";
-import RerGallery from "./components/Section-Photo/Rer-projet/RerGallery";
+import PhotoSection from "./components/Photo-Section/PhotoSection";
+import MarocGallery from "./components/Photo-Section/Maroc-projet/MarocGallery";
+import ProjetMarocGalleryMob from "./components/Photo-Section/Maroc-projet/MarocGalleryMob";
+import RerGallery from "./components/Photo-Section/Rer-projet/RerGallery";
 
 const App: React.FC = () => {
   return (

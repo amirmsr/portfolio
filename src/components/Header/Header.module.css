@@ -8,6 +8,7 @@
 }
 
 
+
 .burger {
   display: block;
   cursor: pointer;
@@ -40,6 +41,8 @@
   text-align: left; 
 }
 
+
+
 @media (min-width: 768px) {
   .header {
     flex-direction: row; 
@@ -58,9 +61,14 @@
     margin-top: 0;
     width: auto; 
   }
+  
 
   .nav a {
     margin: 0 1rem; 
     text-align: center; 
   }
+  .logo{
+    display:block;
+  }
+
 }
