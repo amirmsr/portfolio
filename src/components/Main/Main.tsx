@@ -13,8 +13,8 @@ const Main: React.FC = () => {
         />
       </div>
       <br /><br/>
-      <div className="link-item">
-        <Link className="link" to="/photo-section">
+      <div className="link1-item">
+        <Link className="link1" to="/photo-section">
         Découvrir
         </Link>
       </div>
