@@ -15,13 +15,13 @@ const RerGallery: React.FC = () => {
 
   const images = [
     "https://gzpauqtc6hrhhsyz.public.blob.vercel-storage.com/section%20photo%20rer%20galery/DSCN0039-min-gLjxvFs5oKpU8l8pa0GYWf2DLjeX5X.webp",
+    "https://gzpauqtc6hrhhsyz.public.blob.vercel-storage.com/section%20photo%20rer%20galery/DSCN0033-min-yC0UZsgftnaXaPCsjwQG6SkJm2RUm9.webp",
     "https://gzpauqtc6hrhhsyz.public.blob.vercel-storage.com/section%20photo%20rer%20galery/DSCN0030V2-min-kPWEVGcD9PZiT2dAEF87LItHLSHAGB.webp",
     "https://gzpauqtc6hrhhsyz.public.blob.vercel-storage.com/section%20photo%20rer%20galery/DSCN0070-min-iO7nBJWbGa9tH9oHuRbuqX7LpwGz9L.webp",
     "https://gzpauqtc6hrhhsyz.public.blob.vercel-storage.com/section%20photo%20rer%20galery/DSCN0057-min-qd8Ogr9K2o4klvDseDRJj9qgDKKxlG.webp",
     "https://gzpauqtc6hrhhsyz.public.blob.vercel-storage.com/section%20photo%20rer%20galery/DSCN0044-min-0qVHS4liX6b8xIwqcwWz5YBmAtza1q.webp",
     "https://gzpauqtc6hrhhsyz.public.blob.vercel-storage.com/section%20photo%20rer%20galery/DSCN0043-min-jwYbvBH3kyLW56YpGrt73xKuedg7dG.webp",
     "https://gzpauqtc6hrhhsyz.public.blob.vercel-storage.com/section%20photo%20rer%20galery/DSCN0038-min-DFCl6XAo3Qr0O7lHGxZbvrrq8ViWb6.webp",
-    "https://gzpauqtc6hrhhsyz.public.blob.vercel-storage.com/section%20photo%20rer%20galery/DSCN0033-min-yC0UZsgftnaXaPCsjwQG6SkJm2RUm9.webp",
     "https://gzpauqtc6hrhhsyz.public.blob.vercel-storage.com/section%20photo%20rer%20galery/DSCN0031-min-nV8HkIzClYp9Wl0VHGGQsFdulVKlzl.webp",
     "https://gzpauqtc6hrhhsyz.public.blob.vercel-storage.com/section%20photo%20rer%20galery/DSCN0060-min-DzYQM9IGGlbbfrP2Hnp7vndKSOCFGJ.webp",
     "https://gzpauqtc6hrhhsyz.public.blob.vercel-storage.com/section%20photo%20rer%20galery/DSCN0026V2-min-k69lbuM59czARVqWHzxcM5dBz3XZ1A.webp"
