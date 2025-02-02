@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "./Main.module.css";
 import { Link } from "react-router-dom";
+import SouthEastIcon from '@mui/icons-material/SouthEast';
 
 const Main: React.FC = () => {
   return (
@@ -15,7 +16,8 @@ const Main: React.FC = () => {
       <br /><br/>
       <div className="link1-item">
         <Link className="link1" to="/photo-section">
-        Découvrir
+          Découvrir&nbsp;
+          <SouthEastIcon  />
         </Link>
       </div>
     </main>

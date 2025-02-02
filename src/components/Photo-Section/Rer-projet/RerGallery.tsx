@@ -5,7 +5,7 @@ const RerGallery: React.FC = () => {
 
   return (
     <main className="container text-center mt-5 " style={{paddingTop:"50px"}}>
-      <p style={{fontSize:"1.3rem"}}>Rer</p>
+      <p style={{fontSize:"1.3rem"}}>RER ET STATIONS -2025-</p>
       <br />
       <br />
       <div className="gallery-container">

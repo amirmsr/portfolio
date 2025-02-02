@@ -1,18 +1,12 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
-/* import { useMediaQuery } from "react-responsive";
-import ProjetMarocGalleryMob from "./ProjetMarocGalleryMob"; */
+import '../section-photo.css';
 
 const MarocGallery: React.FC = () => {
-/*   const isMobile = useMediaQuery({ maxWidth: 768 });
-
-  if (isMobile) {
-    return <ProjetMarocGalleryMob />;
-  } */
 
   return (
     <main className="container text-center mt-5 " style={{paddingTop:"50px"}}>
-      <p style={{fontSize:"1.3rem"}}>Projet Maroc</p>
+      <p style={{fontSize:"1.3rem"}}></p>
       <br />
       <br />
       <div className="gallery-container">

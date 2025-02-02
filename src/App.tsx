@@ -5,7 +5,6 @@ import Main from "./components/Main/Main";
 
 import PhotoSection from "./components/Photo-Section/PhotoSection";
 import MarocGallery from "./components/Photo-Section/Maroc-projet/MarocGallery";
-import ProjetMarocGalleryMob from "./components/Photo-Section/Maroc-projet/MarocGalleryMob";
 import RerGallery from "./components/Photo-Section/Rer-projet/RerGallery";
 
 const App: React.FC = () => {
@@ -15,7 +14,6 @@ const App: React.FC = () => {
       <Routes>
         <Route path="/" element={<Main />} />
         <Route path="/photo-section" element={<PhotoSection />} />
-        <Route path="/photo-section/projet-marocMob" element={<ProjetMarocGalleryMob/>}/>
         <Route path="/photo-section/projet-maroc" element={<MarocGallery/>}/>
         <Route path="/photo-section/projet-rer" element={<RerGallery/>}/>
       </Routes>

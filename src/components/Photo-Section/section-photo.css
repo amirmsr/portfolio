@@ -28,7 +28,7 @@
 .link {
   text-decoration: none;
   color: inherit;
-  font-size: 1.4rem;
+  font-size: 1.2rem;
 }
 
 .link-content {
@@ -61,17 +61,14 @@
 .link1 {
   text-decoration: none;
   color: inherit;
-  font-size: 1.4rem;
+  font-size: 1.2rem;
 }
 
 .link1:hover{
   color:#868686 ;
 }
 
-.link1-content {
-  display: flex;
-  align-items: center;
-}
+
 
 .image-container {
   width: 100px; 
