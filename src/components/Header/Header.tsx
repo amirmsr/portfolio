@@ -14,8 +14,7 @@ const Header: React.FC = () => {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
             <Nav.Link href="/photo-section">Projet</Nav.Link>
-            <Nav.Link href="/">À propos</Nav.Link>
-            <Nav.Link href="/">Contact</Nav.Link>
+            {/* <Nav.Link href="/apropos">À propos</Nav.Link> */}
           </Nav>
         </Navbar.Collapse>
       </Container>
