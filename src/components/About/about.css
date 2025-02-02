@@ -1,0 +1,53 @@
+.about-wrapper {
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+    padding: 0 20px;
+  }
+  
+  .about-content {
+    max-width: 650px; /* Réduit de 800px à 650px pour une meilleure lisibilité */
+    margin: 0 auto;
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #1f1f1f;
+  }
+  
+  h2, h3 {
+    font-weight: 500;
+    color: #000;
+  }
+  
+  .email-link {
+    color: #1f1f1f;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .email-link:hover {
+    color: #868686;
+  }
+  
+  .copyright-section {
+    font-size: 0.9rem;
+    padding-top: 2rem;
+    margin-top: 2rem;
+    border-top: 1px solid #eee;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .about-wrapper {
+      padding: 0 32px;
+    }
+  
+    .about-content {
+      max-width: 100%;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .about-wrapper {
+      padding: 0 24px;
+    }
+  }

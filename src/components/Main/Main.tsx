@@ -16,7 +16,7 @@ const Main: React.FC = () => {
       <br /><br/>
       <div className="link1-item">
         <Link className="link1" to="/photo-section">
-          Découvrir&nbsp;
+          Discover&nbsp;
           <SouthEastIcon  />
         </Link>
       </div>
