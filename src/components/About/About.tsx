@@ -9,7 +9,7 @@ const About: React.FC = () => {
             <h2 className="mb-4">About</h2>
             <p>
               Born in 2001 in Nogent-sur-Marne, I am a software engineer currently based in Paris. 
-              My passion lies at the intersection of technology and visual arts, particularly photography 
+              My passion are visual arts, photography 
               and design.
             </p>
             <p>
