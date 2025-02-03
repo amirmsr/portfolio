@@ -6,7 +6,6 @@ const About: React.FC = () => {
       <main className="container mt-5" style={{ paddingTop: "50px" }}>
         <div className="about-content">
           <section className="bio-section mb-5">
-            <h2 className="mb-4">About</h2>
             <p>
               Born in 2001 in Paris, I am a software engineer currently based in Paris. 
               My passion are visual arts, photography 
@@ -17,7 +16,7 @@ const About: React.FC = () => {
               materials and textures. I find beauty in simplicity and the subtle interplay of light 
               and form. My approach to photography focuses on capturing these essential elements,
               stripping away the unnecessary to reveal the fundamental nature of my subjects.
-              I'm using a Sony RX10, iPhone 11, Nikon Coolpix 3600s.
+              I'm using a Sony RX100, iPhone 11, Nikon Coolpix 3600s.
             </p>
           </section>
 
@@ -25,7 +24,7 @@ const About: React.FC = () => {
             <h3 className="mb-3">Contact</h3>
             <p>
               <a href="mailto:your.email@example.com" className="email-link">
-                your.email@example.com
+                amirmansour135@gmail.com
               </a>
             </p>
           </section>
