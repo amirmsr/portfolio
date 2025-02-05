@@ -9,7 +9,7 @@ const Header: React.FC = () => {
   return (
     <Navbar expand="lg" style={{backgroundColor:"none", paddingTop:"30px"}}>
       <Container>
-        <Navbar.Brand href="/">Amir Mansour</Navbar.Brand>
+        <Navbar.Brand href="/">[ Amir Mansour ]</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">

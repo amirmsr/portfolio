@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import SubdirectoryArrowRightIcon from '@mui/icons-material/SubdirectoryArrowRight';
 
 const PhotoSection: React.FC = () => {
   return (
@@ -12,14 +13,14 @@ const PhotoSection: React.FC = () => {
               * RER ET STATIONS -2025-
             </div>
             <div className="image-container">
-              <img src=    "https://gzpauqtc6hrhhsyz.public.blob.vercel-storage.com/section%20photo%20rer%20galery/DSCN0060-min-DzYQM9IGGlbbfrP2Hnp7vndKSOCFGJ.webp" alt="RER" className="link-image" />
+              <img src="https://gzpauqtc6hrhhsyz.public.blob.vercel-storage.com/section%20photo%20rer%20galery/DSCN0060-min-DzYQM9IGGlbbfrP2Hnp7vndKSOCFGJ.webp" alt="RER" className="link-image" />
             </div>
           </Link>
         </div>
         <div className="link-item">
           <Link className="link-content" to={"projet-maroc"}>
             <div className="link-text">
-              * MAROC / DESERT -2023-
+              * MAROC / DESERT 2023  <SubdirectoryArrowRightIcon></SubdirectoryArrowRightIcon>
             </div>
             <div className="image-container">
               <img src="https://gzpauqtc6hrhhsyz.public.blob.vercel-storage.com/section%20photo%20maroc%20galery/DSC02813-maOvmGpSV6Jk2EwPuot1tFuBGQYRdt.webp" alt="Maroc" className="link-image" />
