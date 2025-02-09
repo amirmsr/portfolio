@@ -8,7 +8,7 @@ const About: React.FC = () => {
           <section className="bio-section mb-5">
             <p>
               Born in 2001 in Paris, I am a software engineer currently based in Paris. 
-              My passion are visual arts, photography 
+              My passions are visual arts, photography 
               and design.
             </p>
             <p>

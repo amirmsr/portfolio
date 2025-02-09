@@ -1,11 +1,10 @@
 import React from "react";
 import styles from "./Main.module.css";
 import { Link } from "react-router-dom";
-import SouthEastIcon from '@mui/icons-material/SouthEast';
 
 const Main: React.FC = () => {
   return (
-    <main className="container text-center mt-5 " style={{paddingTop:"50px"}}>
+    <main className="container text-center mt-5" style={{paddingTop:"50px"}}>
       <div className="animate__animated animate__fadeIn">
         <img
           className={styles.responsiveImage} 
@@ -16,8 +15,7 @@ const Main: React.FC = () => {
       <br /><br/>
       <div className="link1-item">
         <Link className="link1" to="/photo-section">
-          Discover&nbsp;
-          <SouthEastIcon  />
+          Discover my works
         </Link>
       </div>
     </main>

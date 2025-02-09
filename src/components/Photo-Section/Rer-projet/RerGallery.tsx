@@ -31,7 +31,9 @@ const RerGallery: React.FC = () => {
 
   return (
     <main className="container text-center mt-5" style={{ paddingTop: "50px" }}>
-      <p style={{ fontSize: "1.3rem" }}>RER ET STATIONS -2025-</p>
+      <p style={{ fontSize: "1rem" }}>SOUTERRAIN</p>
+      <p style={{color:"#686868"}}>Ensemble de photo prise dans les stations de rer de Paris</p>
+      <p style={{color:"#686868"}}>2025 - Paris</p>
       <br />
       <br />
       <div className="gallery-container">
