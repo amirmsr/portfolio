@@ -30,7 +30,7 @@ const RerGallery: React.FC = () => {
   ];
 
   return (
-    <main className="container text-center mt-5" style={{ paddingTop: "50px" }}>
+    <main className="container text-center mt-5" style={{maxWidth:"1100px", marginLeft:"0" , marginRight:"0", margin:"0 auto"}}>
       <p style={{ fontSize: "1rem" }}>SOUTERRAIN</p>
       <p style={{color:"#686868"}}>Ensemble de photo prise dans les stations de rer de Paris</p>
       <p style={{color:"#686868"}}>2025 - Paris</p>

@@ -4,7 +4,8 @@ import { Link } from "react-router-dom";
 
 const Main: React.FC = () => {
   return (
-    <main className="container text-center mt-5" style={{paddingTop:"50px"}}>
+    <main className="container text-center mt-5" style={{maxWidth:"1100px", marginLeft:"0" , marginRight:"0", margin:"0 auto"}}>
+        <Link className="link1" to="/photo-section">
       <div className="animate__animated animate__fadeIn">
         <img
           className={styles.responsiveImage} 
@@ -14,10 +15,9 @@ const Main: React.FC = () => {
       </div>
       <br /><br/>
       <div className="link1-item">
-        <Link className="link1" to="/photo-section">
-          Discover my works
-        </Link>
+        Discover my works
       </div>
+      </Link>
     </main>
   );
 };

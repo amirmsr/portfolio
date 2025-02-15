@@ -2,8 +2,11 @@ import React from "react";
 
 const About: React.FC = () => {
   return (
-    <div className="about-wrapper">
-      <main className="container mt-5" style={{ paddingTop: "50px" }}>
+    <div className="about-wrapper" style={{maxWidth:"1100px", marginLeft:"0" , marginRight:"0", margin:"0 auto"}}>
+      <main className="container mt-5">
+      <div style={{paddingBottom:"20px"}}>
+        <p style={{ fontSize: "1.7rem" }}>About</p>
+      </div>
         <div className="about-content">
           <section className="bio-section mb-5">
             <p>
@@ -23,7 +26,7 @@ const About: React.FC = () => {
           <section className="contact-section mb-5">
             <h3 className="mb-3">Contact</h3>
             <p>
-              <a href="mailto:your.email@example.com" className="email-link">
+              <a href="mailto:amirmansour135@gmail.com" className="email-link">
                 amirmansour135@gmail.com
               </a>
             </p>
