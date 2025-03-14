@@ -16,7 +16,7 @@ const PhotoSection: React.FC = () => {
             </div>
             <div className="image-container">
               <img
-                src="https://gzpauqtc6hrhhsyz.public.blob.vercel-storage.com/section%20photo%20rer%20galery/DSCN0060-min-DzYQM9IGGlbbfrP2Hnp7vndKSOCFGJ.webp"
+                src="https://gzpauqtc6hrhhsyz.public.blob.vercel-storage.com/section%20photo%20rer%20galery/DSCN0044-min-0qVHS4liX6b8xIwqcwWz5YBmAtza1q.webp"
                 alt="RER"
                 className="link-image"
               />
