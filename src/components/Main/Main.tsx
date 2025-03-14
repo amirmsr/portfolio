@@ -15,7 +15,7 @@ const Main: React.FC = () => {
       </div>
       <br /><br/>
       <div className="link1-item">
-        Discover my works
+        Découvrir
       </div>
       </Link>
     </main>
