@@ -18,6 +18,7 @@ const RerGallery: React.FC = () => {
     "https://gzpauqtc6hrhhsyz.public.blob.vercel-storage.com/section%20photo%20rer%20galery/DSCN0044-min-0qVHS4liX6b8xIwqcwWz5YBmAtza1q.webp",
     "https://gzpauqtc6hrhhsyz.public.blob.vercel-storage.com/section%20photo%20maroc%20galery/21045F99-F445-4F10-BBD9-3369223321D7-CT06XYAkII5JM2MFNHpTACfpw0oFzI.jpeg",
     "https://gzpauqtc6hrhhsyz.public.blob.vercel-storage.com/section%20photo%20maroc%20galery/EB2BBD48-2A4A-4C4F-BAC2-2B7C2D355F20-Iflqy2HZndxLilQUfhjORWzgtxSVBr.jpeg",
+    "https://gzpauqtc6hrhhsyz.public.blob.vercel-storage.com/section%20photo%20rer%20galery/DSCN2655-min-O6ocmWYBvX9XdTtXG5ZpKEo7CLH6ku.jpg",
     "https://gzpauqtc6hrhhsyz.public.blob.vercel-storage.com/section%20photo%20rer%20galery/DSCN0033-min-yC0UZsgftnaXaPCsjwQG6SkJm2RUm9.webp",
     "https://gzpauqtc6hrhhsyz.public.blob.vercel-storage.com/section%20photo%20maroc%20galery/AB82EC5D-44A1-41FF-A8DE-8D4EA40D8C92-D3meYV4suwPdBK3Vmeq27S06w8Ecf9.jpeg",
     "https://gzpauqtc6hrhhsyz.public.blob.vercel-storage.com/section%20photo%20rer%20galery/DSCN0030V2-min-kPWEVGcD9PZiT2dAEF87LItHLSHAGB.webp",
