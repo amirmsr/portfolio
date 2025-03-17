@@ -6,7 +6,7 @@ const PhotoSection: React.FC = () => {
     <main className="container mt-5">
       <div style={{maxWidth:"1100px", marginLeft:"0" , marginRight:"0", margin:"0 auto"}}>
       <div style={{paddingBottom:"20px"}}>
-        <p style={{ fontSize: "1.7rem" }}>Projet</p>
+        <p style={{ fontSize: "1.7rem" }}>projet</p>
       </div>
       <div className="link-container"  >
         <div className="link-item">
@@ -29,7 +29,7 @@ const PhotoSection: React.FC = () => {
             <div className="link-text">02</div>
             <div className="image-container">
               <img
-                src="https://gzpauqtc6hrhhsyz.public.blob.vercel-storage.com/section%20photo%20maroc%20galery/DSC02813-maOvmGpSV6Jk2EwPuot1tFuBGQYRdt.webp"
+                src="https://gzpauqtc6hrhhsyz.public.blob.vercel-storage.com/section%20photo%20rer%20galery/DSCN0044-min-0qVHS4liX6b8xIwqcwWz5YBmAtza1q.webp"
                 alt="Maroc"
                 className="link-image"
               />

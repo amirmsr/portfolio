@@ -35,9 +35,9 @@ const MarocGallery: React.FC = () => {
 
   return (
     <main className="container text-center mt-5" style={{maxWidth:"1100px", marginLeft:"0" , marginRight:"0", margin:"0 auto"}} >
-      <p style={{ fontSize: "1rem" }}>TERRE MAROCAINE</p>
-      <p style={{color:"#686868"}}>Des photos du maroc loin du tourisme</p>
-      <p style={{color:"#686868"}}>2023 - Maroc</p>
+      <p style={{ fontSize: "1rem" }}>Quotidien marocain</p>
+      <p style={{color:"#686868"}}>Des photos de tous les jours</p>
+      <p style={{color:"#686868"}}>2023 - Maroc</p> 
       <br />
       <br />
       <div className="gallery-container">
