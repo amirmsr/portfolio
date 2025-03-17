@@ -29,7 +29,7 @@ const PhotoSection: React.FC = () => {
             <div className="link-text">02</div>
             <div className="image-container">
               <img
-                src="https://gzpauqtc6hrhhsyz.public.blob.vercel-storage.com/section%20photo%20rer%20galery/DSCN0044-min-0qVHS4liX6b8xIwqcwWz5YBmAtza1q.webp"
+                src="https://gzpauqtc6hrhhsyz.public.blob.vercel-storage.com/section%20photo%20maroc%20galery/DSC_2064_1_V2-2-5R6Lowm4132vB7vy0pfqE4bDoGwRS0.webp"
                 alt="Maroc"
                 className="link-image"
               />
