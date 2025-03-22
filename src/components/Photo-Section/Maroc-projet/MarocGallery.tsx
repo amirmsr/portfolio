@@ -42,7 +42,7 @@ const MarocGallery: React.FC = () => {
       <div className="gallery-container">
         <Row>
           {images.map((imageUrl, index) => (
-            <Col key={index} className="col" xs={12} sm={6} md={4}>
+            <Col key={index} className="col" xs={4} md={3}>
               <img
                 src={imageUrl}
                 alt=""
@@ -51,7 +51,7 @@ const MarocGallery: React.FC = () => {
                   height: "100%",
                   objectFit: "cover",
                   cursor: "pointer",
-                  marginBottom: "20px"
+                  marginBottom: "15px"
                 }}
                 className="animate__animated animate__fadeIn"
                 onClick={() => handleImageClick(imageUrl)}

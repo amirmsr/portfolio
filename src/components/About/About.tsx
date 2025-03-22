@@ -5,7 +5,7 @@ const About: React.FC = () => {
     <div className="about-wrapper" style={{maxWidth:"1100px", marginLeft:"0" , marginRight:"0", margin:"0 auto"}}>
       <main className="container mt-5">
       <div style={{paddingBottom:"20px"}}>
-        <p style={{ fontSize: "1.7rem" }}>About</p>
+        <p style={{ fontSize: "1.7rem" }}>about</p>
       </div>
         <div className="about-content">
         <section className="bio-section mb-5">

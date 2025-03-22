@@ -38,7 +38,7 @@ const RerGallery: React.FC = () => {
       <div className="gallery-container">
         <Row>
           {images.map((imageUrl, index) => (
-            <Col key={index} className="col" xs={12} sm={6} md={4}>
+            <Col key={index} className="col" xs={4} md={3}>
               <img
                 src={imageUrl}
                 alt=""
