@@ -21,7 +21,7 @@ const Main: React.FC = () => {
   }, []);
 
   const desktopImageUrl = "https://gzpauqtc6hrhhsyz.public.blob.vercel-storage.com/home%20page/Group%2055-rogSS5Hr1nFoieQmQFMEJGr29H2Bp4.png";
-  const mobileImageUrl = "https://gzpauqtc6hrhhsyz.public.blob.vercel-storage.com/home%20page/Group%2056-X0MStZvDZbIWWIgMsIpNejVvzAw310.png"; 
+  const mobileImageUrl = "https://gzpauqtc6hrhhsyz.public.blob.vercel-storage.com/home%20page/Group%2056-min-0coWmDXTCP6jE2MU0XsXioA1StnV7Q.png"; 
 
   return (
     <main className="container text-center mt-5" style={{maxWidth:"1100px", margin:"0 auto"}}>

@@ -6,7 +6,7 @@ import Main from "./components/Main/Main";
 import PhotoSection from "./components/Photo-Section/PhotoSection";
 import MarocGallery from "./components/Photo-Section/Maroc-projet/MarocGallery";
 import RerGallery from "./components/Photo-Section/Rer-projet/RerGallery";
-import About from "./components/About/About";
+import About from "./components/Contact/contact";
 
 const App: React.FC = () => {
   return (
