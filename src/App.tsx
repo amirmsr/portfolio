@@ -7,6 +7,7 @@ import PhotoSection from "./components/Photo-Section/PhotoSection";
 import MarocGallery from "./components/Photo-Section/Maroc-projet/MarocGallery";
 import RerGallery from "./components/Photo-Section/Rer-projet/RerGallery";
 import About from "./components/Contact/contact";
+import RepetionGallery from "./components/Photo-Section/Repetition-projet/RepetitionGallery";
 
 const App: React.FC = () => {
   return (
@@ -17,6 +18,7 @@ const App: React.FC = () => {
         <Route path="/photo-section" element={<PhotoSection />} />
         <Route path="/photo-section/projet-maroc" element={<MarocGallery/>}/>
         <Route path="/photo-section/projet-rer" element={<RerGallery/>}/>
+        <Route path="/photo-section/projet-repetition" element={<RepetionGallery/>}/>
         <Route path="/about" element={<About/>}/>
 
       </Routes>

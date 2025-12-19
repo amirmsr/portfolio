@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { Col, Row } from "react-bootstrap";
 import ImageModal from '../../ImageModal';
 
-const RerGallery: React.FC = () => {
+const RepetionGallery: React.FC = () => {
   const [selectedImage, setSelectedImage] = useState<string | null>(null);
   const [loadedImages, setLoadedImages] = useState<string[]>([]);
   const [isLoading, setIsLoading] = useState(true);
@@ -48,7 +48,7 @@ const RerGallery: React.FC = () => {
       }
     };
 
-    loadImages();
+    loadImages(); 
   }, []);
 
   // Loader component
@@ -113,4 +113,4 @@ const RerGallery: React.FC = () => {
   );
 };
 
-export default RerGallery;
+export default RepetionGallery;
