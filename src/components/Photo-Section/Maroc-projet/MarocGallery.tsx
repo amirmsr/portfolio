@@ -79,7 +79,7 @@ const MarocGallery: React.FC = () => {
       }}
     >
       <p style={{ fontSize: "1rem" }}>TRAIN DE VIE</p>
-      <p style={{color:"#686868"}}>Prises de vu de moment de vie </p>
+      <p style={{color:"#686868"}}>Prises de vue de moments de vie </p>
       <p style={{color:"#686868"}}>2023 - Maroc</p> 
       <br />
       <br />
