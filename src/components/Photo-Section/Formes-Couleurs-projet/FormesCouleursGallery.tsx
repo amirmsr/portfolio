@@ -67,9 +67,9 @@ const FormesCouleursGallery: React.FC = () => {
         margin:"0 auto"
       }}
     >
-      <p style={{ fontSize: "1rem" }}>SOUTERRAIN</p>
-      <p style={{color:"#686868"}}>Ensemble de photos prises dans les stations de RER</p>
-      <p style={{color:"#686868"}}>2025 - Paris</p>
+      <p style={{ fontSize: "1rem" }}>FORMES ET COULEURS</p>
+      <p style={{color:"#686868"}}>Ensemble de formes et de couleurs </p>
+      <p style={{color:"#686868"}}>2**** - *****</p>
       <br />
       <br />
 
