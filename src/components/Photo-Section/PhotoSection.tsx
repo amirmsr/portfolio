@@ -107,7 +107,7 @@ const PhotoSection: React.FC = () => {
             </div>
             <div className="image-container">
               <img
-                src={loadedImages[0]}
+                src={loadedImages[2]}
                 alt="Formes-Couleurs Project"
                 className="link-image"
                 loading="lazy"
