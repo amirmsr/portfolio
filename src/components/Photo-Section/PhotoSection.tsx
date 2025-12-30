@@ -7,7 +7,8 @@ const PhotoSection: React.FC = () => {
 
   const images = [
     "https://gzpauqtc6hrhhsyz.public.blob.vercel-storage.com/section%20projet%20/Group%2059-min-vAswo4N0tTiOm2nSTJcNNiCentvzXS.png",
-    "https://gzpauqtc6hrhhsyz.public.blob.vercel-storage.com/section%20projet%20/Group%2057-min-6nQilHxzD7dQLYLXS5p1JtFda5M9gR.png"
+    "https://gzpauqtc6hrhhsyz.public.blob.vercel-storage.com/section%20projet%20/Group%2057-min-6nQilHxzD7dQLYLXS5p1JtFda5M9gR.png",
+    "https://gzpauqtc6hrhhsyz.public.blob.vercel-storage.com/section%20projet%20/Group-77-min.webp"
   ];
 
   useEffect(() => {
@@ -59,7 +60,7 @@ const PhotoSection: React.FC = () => {
     <main className="container mt-5">
       <div style={{maxWidth:"1100px", marginLeft:"0" , marginRight:"0", margin:"0 auto"}}>
       <div style={{paddingBottom:"20px"}}>
-        <p style={{ fontSize: "1.7rem" }}>projet</p>
+        <p style={{ fontSize: "1.7rem" }}>projet photographique</p>
       </div>
       <div className="link-container">
         <div className="link-item">
@@ -90,6 +91,29 @@ const PhotoSection: React.FC = () => {
               />
             </div>
             <div className="link-text">MAROC</div>
+          </Link>
+        </div>
+      </div>
+      </div>
+      <div style={{maxWidth:"1100px", marginLeft:"0" , marginRight:"0", margin:"0 auto"}}>
+      <div style={{paddingBottom:"20px"}}>
+        <p style={{ fontSize: "1.7rem" }}>projet graphique</p>
+      </div>
+      <div className="link-container">
+        <div className="link-item">
+          <Link className="link-content" to={"formes-couleurs-rer"}>
+            <div>
+              <div className="link-text">01</div>
+            </div>
+            <div className="image-container">
+              <img
+                src={loadedImages[0]}
+                alt="Formes-Couleurs Project"
+                className="link-image"
+                loading="lazy"
+              />
+            </div>
+            <div className="link-text">Formes et Couleurs</div>
           </Link>
         </div>
       </div>
