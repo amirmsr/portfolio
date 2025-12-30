@@ -8,7 +8,7 @@ const FormesCouleursGallery: React.FC = () => {
   const [isLoading, setIsLoading] = useState(true);
 
   const images = [
-    "https://gzpauqtc6hrhhsyz.public.blob.vercel-storage.com/section%20graphique%20formes%20couleurs%20galery/Group-2-min.webp",
+    "https://gzpauqtc6hrhhsyz.public.blob.vercel-storage.com/section%20graphique%20formes%20couleurs%20galery/Group-2-min%20%281%29.webp",
     "https://gzpauqtc6hrhhsyz.public.blob.vercel-storage.com/section%20graphique%20formes%20couleurs%20galery/Group-3-min.webp",
     "https://gzpauqtc6hrhhsyz.public.blob.vercel-storage.com/section%20graphique%20formes%20couleurs%20galery/Group-68-min.webp",
     "https://gzpauqtc6hrhhsyz.public.blob.vercel-storage.com/section%20graphique%20formes%20couleurs%20galery/Group-7-min.webp",
