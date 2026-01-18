@@ -19,7 +19,7 @@ const App: React.FC = () => {
         <Route path="/photo-section" element={<PhotoSection />} />
         <Route path="/photo-section/projet-maroc" element={<MarocGallery/>}/>
         <Route path="/photo-section/projet-rer" element={<RerGallery/>}/>
-        <Route path="/photo-section/formes-couleurs-rer" element={<FormesCouleursGallery/>}/>
+        <Route path="/photo-section/formes-couleurs" element={<FormesCouleursGallery/>}/>
         <Route path="/about" element={<About/>}/>
 
       </Routes>

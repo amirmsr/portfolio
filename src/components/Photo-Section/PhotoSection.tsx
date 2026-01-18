@@ -102,7 +102,7 @@ const PhotoSection: React.FC = () => {
       </div>
       <div className="link-container">
         <div className="link-item">
-          <Link className="link-content" to={"formes-couleurs-rer"}>
+          <Link className="link-content" to={"formes-couleurs"}>
             <div>
               <div className="link-text">01</div>
             </div>
