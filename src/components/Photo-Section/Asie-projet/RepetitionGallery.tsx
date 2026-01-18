@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { Col, Row } from "react-bootstrap";
 import ImageModal from '../../ImageModal';
 
-const RepetionGallery: React.FC = () => {
+const AsieGallery: React.FC = () => {
   const [selectedImage, setSelectedImage] = useState<string | null>(null);
   const [loadedImages, setLoadedImages] = useState<string[]>([]);
   const [isLoading, setIsLoading] = useState(true);
@@ -71,8 +71,8 @@ const RepetionGallery: React.FC = () => {
         margin:"0 auto"
       }}
     >
-      <p style={{ fontSize: "1rem" }}>SOUTERRAIN</p>
-      <p style={{color:"#686868"}}>Ensemble de photos prises dans les stations de RER</p>
+      <p style={{ fontSize: "1rem" }}>ASIE</p>
+      <p style={{color:"#686868"}}></p>
       <p style={{color:"#686868"}}>2025 - Paris</p>
       <br />
       <br />
@@ -113,4 +113,4 @@ const RepetionGallery: React.FC = () => {
   );
 };
 
-export default RepetionGallery;
+export default AsieGallery;
