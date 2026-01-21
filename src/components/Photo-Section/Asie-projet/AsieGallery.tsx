@@ -1,23 +1,23 @@
 import React, { useState, useEffect } from "react";
 import { Col, Row } from "react-bootstrap";
-import ImageModal from '../../ImageModal';
+import ImageModal from "../../ImageModal";
+
+const images = [
+  "https://gzpauqtc6hrhhsyz.public.blob.vercel-storage.com/section%20photo%20repetition/0FCCC144-5BD4-4018-A581-D7342DA7BA76_1_105_c.jpeg",
+  "https://gzpauqtc6hrhhsyz.public.blob.vercel-storage.com/section%20photo%20repetition/1CDD362C-98B3-4103-8883-1C4373DDAB76_1_105_c.jpeg",
+  "https://gzpauqtc6hrhhsyz.public.blob.vercel-storage.com/section%20photo%20repetition/1ED8B949-5E18-4165-86DC-8D30BE2AB2DF_1_105_c.jpeg",
+  "https://gzpauqtc6hrhhsyz.public.blob.vercel-storage.com/section%20photo%20repetition/3D5C4A4E-F39D-49D0-8A45-B4D3A1386E40_1_105_c.jpeg",
+  "https://gzpauqtc6hrhhsyz.public.blob.vercel-storage.com/section%20photo%20repetition/46339E70-77E1-4BF7-BC16-B10B57735AE5_1_105_c.jpeg",
+  "https://gzpauqtc6hrhhsyz.public.blob.vercel-storage.com/section%20photo%20repetition/6B9D0976-7979-40EA-87A2-5AB9EB1F7D23_1_105_c.jpeg",
+  "https://gzpauqtc6hrhhsyz.public.blob.vercel-storage.com/section%20photo%20repetition/E1B8036E-4ABE-4760-BBD4-FF1C36F34F75_1_105_c.jpeg",
+  "https://gzpauqtc6hrhhsyz.public.blob.vercel-storage.com/section%20photo%20repetition/IMG_0481.jpg",
+  "https://gzpauqtc6hrhhsyz.public.blob.vercel-storage.com/section%20photo%20repetition/IMG_0577.jpg",
+];
 
 const AsieGallery: React.FC = () => {
   const [selectedImage, setSelectedImage] = useState<string | null>(null);
   const [loadedImages, setLoadedImages] = useState<string[]>([]);
   const [isLoading, setIsLoading] = useState(true);
-
-  const images = [
-    "https://gzpauqtc6hrhhsyz.public.blob.vercel-storage.com/section%20photo%20repetition/0FCCC144-5BD4-4018-A581-D7342DA7BA76_1_105_c.jpeg",
-    "https://gzpauqtc6hrhhsyz.public.blob.vercel-storage.com/section%20photo%20repetition/1CDD362C-98B3-4103-8883-1C4373DDAB76_1_105_c.jpeg",
-    "https://gzpauqtc6hrhhsyz.public.blob.vercel-storage.com/section%20photo%20repetition/1ED8B949-5E18-4165-86DC-8D30BE2AB2DF_1_105_c.jpeg",
-    "https://gzpauqtc6hrhhsyz.public.blob.vercel-storage.com/section%20photo%20repetition/3D5C4A4E-F39D-49D0-8A45-B4D3A1386E40_1_105_c.jpeg",
-    "https://gzpauqtc6hrhhsyz.public.blob.vercel-storage.com/section%20photo%20repetition/46339E70-77E1-4BF7-BC16-B10B57735AE5_1_105_c.jpeg",
-    "https://gzpauqtc6hrhhsyz.public.blob.vercel-storage.com/section%20photo%20repetition/6B9D0976-7979-40EA-87A2-5AB9EB1F7D23_1_105_c.jpeg",
-    "https://gzpauqtc6hrhhsyz.public.blob.vercel-storage.com/section%20photo%20repetition/E1B8036E-4ABE-4760-BBD4-FF1C36F34F75_1_105_c.jpeg",
-    "https://gzpauqtc6hrhhsyz.public.blob.vercel-storage.com/section%20photo%20repetition/IMG_0481.jpg",
-    "https://gzpauqtc6hrhhsyz.public.blob.vercel-storage.com/section%20photo%20repetition/IMG_0577.jpg",
-  ];
 
   const handleImageClick = (imageUrl: string) => {
     setSelectedImage(imageUrl);
@@ -43,12 +43,12 @@ const AsieGallery: React.FC = () => {
         setLoadedImages(loadedImageUrls);
         setIsLoading(false);
       } catch (error) {
-        console.error('Error loading images:', error);
+        console.error("Error loading images:", error);
         setIsLoading(false);
       }
     };
 
-    loadImages(); 
+    loadImages();
   }, []);
 
   // Loader component
@@ -62,18 +62,18 @@ const AsieGallery: React.FC = () => {
   );
 
   return (
-    <main 
-      className="container text-center mt-5" 
+    <main
+      className="container text-center mt-5"
       style={{
-        maxWidth:"1100px", 
-        marginLeft:"0", 
-        marginRight:"0", 
-        margin:"0 auto"
+        maxWidth: "1100px",
+        marginLeft: "0",
+        marginRight: "0",
+        margin: "0 auto",
       }}
     >
       <p style={{ fontSize: "1rem" }}>ASIE</p>
-      <p style={{color:"#686868"}}></p>
-      <p style={{color:"#686868"}}>2025 - Paris</p>
+      <p style={{ color: "#686868" }}></p>
+      <p style={{ color: "#686868" }}>2025 - Paris</p>
       <br />
       <br />
 
@@ -92,7 +92,7 @@ const AsieGallery: React.FC = () => {
                     height: "100%",
                     objectFit: "cover",
                     cursor: "pointer",
-                    marginBottom: "20px"
+                    marginBottom: "20px",
                   }}
                   className="animate__animated animate__fadeIn"
                   onClick={() => handleImageClick(imageUrl)}
@@ -107,7 +107,7 @@ const AsieGallery: React.FC = () => {
       <ImageModal
         isOpen={!!selectedImage}
         onClose={handleCloseModal}
-        imageUrl={selectedImage || ''}
+        imageUrl={selectedImage || ""}
       />
     </main>
   );

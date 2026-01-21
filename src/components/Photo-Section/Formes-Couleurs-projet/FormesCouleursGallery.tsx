@@ -1,19 +1,19 @@
 import React, { useState, useEffect } from "react";
 import { Col, Row } from "react-bootstrap";
-import ImageModal from '../../ImageModal';
+import ImageModal from "../../ImageModal";
+
+const images = [
+  "https://gzpauqtc6hrhhsyz.public.blob.vercel-storage.com/section%20graphique%20formes%20couleurs%20galery/Group-2-min%20%281%29.webp",
+  "https://gzpauqtc6hrhhsyz.public.blob.vercel-storage.com/section%20graphique%20formes%20couleurs%20galery/Group-3-min.webp",
+  "https://gzpauqtc6hrhhsyz.public.blob.vercel-storage.com/section%20graphique%20formes%20couleurs%20galery/Group-68-min.webp",
+  "https://gzpauqtc6hrhhsyz.public.blob.vercel-storage.com/section%20graphique%20formes%20couleurs%20galery/Group-7-min.webp",
+  "https://gzpauqtc6hrhhsyz.public.blob.vercel-storage.com/section%20graphique%20formes%20couleurs%20galery/Group-9-min.webp",
+];
 
 const FormesCouleursGallery: React.FC = () => {
   const [selectedImage, setSelectedImage] = useState<string | null>(null);
   const [loadedImages, setLoadedImages] = useState<string[]>([]);
   const [isLoading, setIsLoading] = useState(true);
-
-  const images = [
-    "https://gzpauqtc6hrhhsyz.public.blob.vercel-storage.com/section%20graphique%20formes%20couleurs%20galery/Group-2-min%20%281%29.webp",
-    "https://gzpauqtc6hrhhsyz.public.blob.vercel-storage.com/section%20graphique%20formes%20couleurs%20galery/Group-3-min.webp",
-    "https://gzpauqtc6hrhhsyz.public.blob.vercel-storage.com/section%20graphique%20formes%20couleurs%20galery/Group-68-min.webp",
-    "https://gzpauqtc6hrhhsyz.public.blob.vercel-storage.com/section%20graphique%20formes%20couleurs%20galery/Group-7-min.webp",
-    "https://gzpauqtc6hrhhsyz.public.blob.vercel-storage.com/section%20graphique%20formes%20couleurs%20galery/Group-9-min.webp",
-  ];
 
   const handleImageClick = (imageUrl: string) => {
     setSelectedImage(imageUrl);
@@ -39,7 +39,7 @@ const FormesCouleursGallery: React.FC = () => {
         setLoadedImages(loadedImageUrls);
         setIsLoading(false);
       } catch (error) {
-        console.error('Error loading images:', error);
+        console.error("Error loading images:", error);
         setIsLoading(false);
       }
     };
@@ -58,18 +58,18 @@ const FormesCouleursGallery: React.FC = () => {
   );
 
   return (
-    <main 
-      className="container text-center mt-5" 
+    <main
+      className="container text-center mt-5"
       style={{
-        maxWidth:"1100px", 
-        marginLeft:"0", 
-        marginRight:"0", 
-        margin:"0 auto"
+        maxWidth: "1100px",
+        marginLeft: "0",
+        marginRight: "0",
+        margin: "0 auto",
       }}
     >
       <p style={{ fontSize: "1rem" }}>FORMES ET COULEURS</p>
-      <p style={{color:"#686868"}}>Ensemble de formes et de couleurs </p>
-      <p style={{color:"#686868"}}>2**** - *****</p>
+      <p style={{ color: "#686868" }}>Ensemble de formes et de couleurs </p>
+      <p style={{ color: "#686868" }}>2**** - *****</p>
       <br />
       <br />
 
@@ -88,7 +88,7 @@ const FormesCouleursGallery: React.FC = () => {
                     height: "100%",
                     objectFit: "cover",
                     cursor: "pointer",
-                    marginBottom: "20px"
+                    marginBottom: "20px",
                   }}
                   className="animate__animated animate__fadeIn"
                   onClick={() => handleImageClick(imageUrl)}
@@ -103,7 +103,7 @@ const FormesCouleursGallery: React.FC = () => {
       <ImageModal
         isOpen={!!selectedImage}
         onClose={handleCloseModal}
-        imageUrl={selectedImage || ''}
+        imageUrl={selectedImage || ""}
       />
     </main>
   );

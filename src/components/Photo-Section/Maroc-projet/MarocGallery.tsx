@@ -3,11 +3,6 @@ import { Col, Row } from "react-bootstrap";
 import '../section-photo.css';
 import ImageModal from '../../ImageModal'; 
 
-const MarocGallery: React.FC = () => {
-  const [selectedImage, setSelectedImage] = useState<string | null>(null);
-  const [loadedImages, setLoadedImages] = useState<string[]>([]);
-  const [isLoading, setIsLoading] = useState(true);
-
   const images = [
     "https://gzpauqtc6hrhhsyz.public.blob.vercel-storage.com/section%20photo%20maroc%20galery/DSC_2064_1_V2-2-5R6Lowm4132vB7vy0pfqE4bDoGwRS0.webp",
     "https://gzpauqtc6hrhhsyz.public.blob.vercel-storage.com/section%20photo%20maroc%20galery/906511E3-8B84-4906-B303-3EE72019BD7D-B7AZRTTQtrtpF9VklObmxSAu8ohsph.jpeg",
@@ -25,6 +20,11 @@ const MarocGallery: React.FC = () => {
     "https://gzpauqtc6hrhhsyz.public.blob.vercel-storage.com/section%20photo%20maroc%20galery/DSC02846-Oxw8MMKkXNcuAGeeX3foRXvjcytPC5.webp",
     "https://gzpauqtc6hrhhsyz.public.blob.vercel-storage.com/section%20photo%20maroc%20galery/DSC02813-maOvmGpSV6Jk2EwPuot1tFuBGQYRdt.webp",
   ];
+
+const MarocGallery: React.FC = () => {
+  const [selectedImage, setSelectedImage] = useState<string | null>(null);
+  const [loadedImages, setLoadedImages] = useState<string[]>([]);
+  const [isLoading, setIsLoading] = useState(true);
 
   const handleImageClick = (imageUrl: string) => {
     setSelectedImage(imageUrl);

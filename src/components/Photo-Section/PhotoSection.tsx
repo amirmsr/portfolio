@@ -1,16 +1,15 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 
-  const images = [
-    "https://gzpauqtc6hrhhsyz.public.blob.vercel-storage.com/section%20projet%20/Group%2059-min-vAswo4N0tTiOm2nSTJcNNiCentvzXS.png",
-    "https://gzpauqtc6hrhhsyz.public.blob.vercel-storage.com/section%20projet%20/Group%2057-min-6nQilHxzD7dQLYLXS5p1JtFda5M9gR.png",
-    "https://gzpauqtc6hrhhsyz.public.blob.vercel-storage.com/section%20projet%20/Group-77.webp"
-  ];
+const images = [
+  "https://gzpauqtc6hrhhsyz.public.blob.vercel-storage.com/section%20projet%20/Group%2059-min-vAswo4N0tTiOm2nSTJcNNiCentvzXS.png",
+  "https://gzpauqtc6hrhhsyz.public.blob.vercel-storage.com/section%20projet%20/Group%2057-min-6nQilHxzD7dQLYLXS5p1JtFda5M9gR.png",
+  "https://gzpauqtc6hrhhsyz.public.blob.vercel-storage.com/section%20projet%20/Group-77.webp",
+];
 
 const PhotoSection: React.FC = () => {
   const [imagesLoaded, setImagesLoaded] = useState(false);
   const [loadedImages, setLoadedImages] = useState<string[]>([]);
-
 
   useEffect(() => {
     const loadImages = async () => {
@@ -28,7 +27,7 @@ const PhotoSection: React.FC = () => {
         setLoadedImages(loadedImageUrls);
         setImagesLoaded(true);
       } catch (error) {
-        console.error('Error loading images:', error);
+        console.error("Error loading images:", error);
         setImagesLoaded(true);
       }
     };
@@ -50,7 +49,14 @@ const PhotoSection: React.FC = () => {
   if (!imagesLoaded) {
     return (
       <main className="container mt-5">
-        <div style={{maxWidth:"1100px", marginLeft:"0" , marginRight:"0", margin:"0 auto"}}>
+        <div
+          style={{
+            maxWidth: "1100px",
+            marginLeft: "0",
+            marginRight: "0",
+            margin: "0 auto",
+          }}
+        >
           <Loader />
         </div>
       </main>
@@ -59,65 +65,79 @@ const PhotoSection: React.FC = () => {
 
   return (
     <main className="container mt-5">
-      <div style={{maxWidth:"1100px", marginLeft:"0" , marginRight:"0", margin:"0 auto"}}>
-      <div style={{paddingBottom:"20px"}}>
-        <p style={{ fontSize: "1.7rem" }}>projet photographique</p>
-      </div>
-      <div className="link-container">
-        <div className="link-item">
-          <Link className="link-content" to={"projet-rer"}>
-            <div>
-              <div className="link-text">01</div>
-            </div>
-            <div className="image-container">
-              <img
-                src={loadedImages[0]}
-                alt="RER Project"
-                className="link-image"
-                loading="lazy"
-              />
-            </div>
-            <div className="link-text">SOUTERRAIN</div>
-          </Link>
+      <div
+        style={{
+          maxWidth: "1100px",
+          marginLeft: "0",
+          marginRight: "0",
+          margin: "0 auto",
+        }}
+      >
+        <div style={{ paddingBottom: "20px" }}>
+          <p style={{ fontSize: "1.7rem" }}>projet photographique</p>
         </div>
-        <div className="link-item">
-          <Link className="link-content" to={"projet-maroc"}>
-            <div className="link-text">02</div>
-            <div className="image-container">
-              <img
-                src={loadedImages[1]}
-                alt="Maroc Project"
-                className="link-image"
-                loading="lazy"
-              />
-            </div>
-            <div className="link-text">MAROC</div>
-          </Link>
-        </div>
-      </div>
-      </div>
-      <div style={{maxWidth:"1100px", marginLeft:"0" , marginRight:"0", margin:"0 auto"}}>
-      <div style={{paddingBottom:"20px"}}>
-        <p style={{ fontSize: "1.7rem" }}>projet graphique</p>
-      </div>
-      <div className="link-container">
-        <div className="link-item">
-          <Link className="link-content" to={"formes-couleurs"}>
-            <div>
-              <div className="link-text">01</div>
-            </div>
-            <div className="image-container">
-              <img
-                src={loadedImages[2]}
-                alt="Formes-Couleurs Project"
-                className="link-image"
-                loading="lazy"
-              />
-            </div>
-            <div className="link-text">FORMES ET COULEURS</div>
-          </Link>
+        <div className="link-container">
+          <div className="link-item">
+            <Link className="link-content" to={"projet-rer"}>
+              <div>
+                <div className="link-text">01</div>
+              </div>
+              <div className="image-container">
+                <img
+                  src={loadedImages[0]}
+                  alt="RER Project"
+                  className="link-image"
+                  loading="lazy"
+                />
+              </div>
+              <div className="link-text">SOUTERRAIN</div>
+            </Link>
+          </div>
+          <div className="link-item">
+            <Link className="link-content" to={"projet-maroc"}>
+              <div className="link-text">02</div>
+              <div className="image-container">
+                <img
+                  src={loadedImages[1]}
+                  alt="Maroc Project"
+                  className="link-image"
+                  loading="lazy"
+                />
+              </div>
+              <div className="link-text">MAROC</div>
+            </Link>
+          </div>
         </div>
       </div>
+      <div
+        style={{
+          maxWidth: "1100px",
+          marginLeft: "0",
+          marginRight: "0",
+          margin: "0 auto",
+        }}
+      >
+        <div style={{ paddingBottom: "20px" }}>
+          <p style={{ fontSize: "1.7rem" }}>projet graphique</p>
+        </div>
+        <div className="link-container">
+          <div className="link-item">
+            <Link className="link-content" to={"formes-couleurs"}>
+              <div>
+                <div className="link-text">01</div>
+              </div>
+              <div className="image-container">
+                <img
+                  src={loadedImages[2]}
+                  alt="Formes-Couleurs Project"
+                  className="link-image"
+                  loading="lazy"
+                />
+              </div>
+              <div className="link-text">FORMES ET COULEURS</div>
+            </Link>
+          </div>
+        </div>
       </div>
     </main>
   );

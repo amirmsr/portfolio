@@ -2,11 +2,6 @@ import React, { useState, useEffect } from "react";
 import { Col, Row } from "react-bootstrap";
 import ImageModal from '../../ImageModal';
 
-const RerGallery: React.FC = () => {
-  const [selectedImage, setSelectedImage] = useState<string | null>(null);
-  const [loadedImages, setLoadedImages] = useState<string[]>([]);
-  const [isLoading, setIsLoading] = useState(true);
-
   const images = [
     "https://gzpauqtc6hrhhsyz.public.blob.vercel-storage.com/section%20photo%20rer%20galery/DSCN0044-min-0qVHS4liX6b8xIwqcwWz5YBmAtza1q.webp",
     "https://gzpauqtc6hrhhsyz.public.blob.vercel-storage.com/section%20photo%20rer%20galery/DSCN0039-min-gLjxvFs5oKpU8l8pa0GYWf2DLjeX5X.webp",
@@ -19,6 +14,13 @@ const RerGallery: React.FC = () => {
     "https://gzpauqtc6hrhhsyz.public.blob.vercel-storage.com/section%20photo%20rer%20galery/P1090494-min-vXN64E8xNYorse9iqPWOyMthSJTKeL.jpg",
     "https://gzpauqtc6hrhhsyz.public.blob.vercel-storage.com/section%20photo%20rer%20galery/DSCN0031-min-nV8HkIzClYp9Wl0VHGGQsFdulVKlzl.webp",
   ];
+
+const RerGallery: React.FC = () => {
+  const [selectedImage, setSelectedImage] = useState<string | null>(null);
+  const [loadedImages, setLoadedImages] = useState<string[]>([]);
+  const [isLoading, setIsLoading] = useState(true);
+
+
 
   const handleImageClick = (imageUrl: string) => {
     setSelectedImage(imageUrl);
