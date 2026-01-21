@@ -89,3 +89,16 @@
     max-height: 140px;
   }
 }
+
+
+/* Responsive adjustments for mobile */
+@media (max-width: 767px) {
+  .gallery-container .row .col {
+    max-height: 140px;
+  }
+  
+  /* Réduire la taille du texte des titres de projets sur mobile */
+  .section-title {
+    font-size: 1.2rem !important;
+  }
+}

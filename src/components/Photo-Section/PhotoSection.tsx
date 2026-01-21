@@ -75,7 +75,9 @@ const PhotoSection: React.FC = () => {
         }}
       >
         <div style={{ paddingBottom: "20px" }}>
-          <p style={{ fontSize: "1.7rem" }}>projet photographique</p>
+          <p className="section-title" style={{ fontSize: "1.7rem" }}>
+            projet photographique
+          </p>
         </div>
         <div className="link-container">
           <div className="link-item">
@@ -134,7 +136,9 @@ const PhotoSection: React.FC = () => {
         }}
       >
         <div style={{ paddingBottom: "20px" }}>
-          <p style={{ fontSize: "1.7rem" }}>projet graphique</p>
+          <p className="section-title" style={{ fontSize: "1.7rem" }}>
+            projet graphique
+          </p>
         </div>
         <div className="link-container">
           <div className="link-item">
