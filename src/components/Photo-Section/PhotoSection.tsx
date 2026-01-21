@@ -115,6 +115,7 @@ const PhotoSection: React.FC = () => {
           marginLeft: "0",
           marginRight: "0",
           margin: "0 auto",
+          marginTop: "80px",
         }}
       >
         <div style={{ paddingBottom: "20px" }}>
