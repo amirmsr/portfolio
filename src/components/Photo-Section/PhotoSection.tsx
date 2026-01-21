@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const images = [
   "https://gzpauqtc6hrhhsyz.public.blob.vercel-storage.com/section%20projet%20/Group%2059-min-vAswo4N0tTiOm2nSTJcNNiCentvzXS.png",
   "https://gzpauqtc6hrhhsyz.public.blob.vercel-storage.com/section%20projet%20/Group%2057-min-6nQilHxzD7dQLYLXS5p1JtFda5M9gR.png",
-  "https://gzpauqtc6hrhhsyz.public.blob.vercel-storage.com/section%20projet%20/Group%2057-min-6nQilHxzD7dQLYLXS5p1JtFda5M9gR.png",
+  "https://gzpauqtc6hrhhsyz.public.blob.vercel-storage.com/section%20projet%20/Group-78.webp",
   "https://gzpauqtc6hrhhsyz.public.blob.vercel-storage.com/section%20projet%20/Group-79.webp",
 ];
 
