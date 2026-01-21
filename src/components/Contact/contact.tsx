@@ -1,6 +1,6 @@
 import React from "react";
 
-const About: React.FC = () => {
+const Contact: React.FC = () => {
   return (
     <div className="about-wrapper" style={{maxWidth:"1100px", marginLeft:"0" , marginRight:"0", margin:"0 auto"}}>
       <main className="container mt-5">
@@ -25,4 +25,4 @@ const About: React.FC = () => {
   );
 };
 
-export default About;
+export default Contact;

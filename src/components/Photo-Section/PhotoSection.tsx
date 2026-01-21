@@ -4,7 +4,8 @@ import { Link } from "react-router-dom";
 const images = [
   "https://gzpauqtc6hrhhsyz.public.blob.vercel-storage.com/section%20projet%20/Group%2059-min-vAswo4N0tTiOm2nSTJcNNiCentvzXS.png",
   "https://gzpauqtc6hrhhsyz.public.blob.vercel-storage.com/section%20projet%20/Group%2057-min-6nQilHxzD7dQLYLXS5p1JtFda5M9gR.png",
-  "https://gzpauqtc6hrhhsyz.public.blob.vercel-storage.com/section%20projet%20/Group-79.webp"
+  "https://gzpauqtc6hrhhsyz.public.blob.vercel-storage.com/section%20projet%20/Group%2057-min-6nQilHxzD7dQLYLXS5p1JtFda5M9gR.png",
+  "https://gzpauqtc6hrhhsyz.public.blob.vercel-storage.com/section%20projet%20/Group-79.webp",
 ];
 
 const PhotoSection: React.FC = () => {
@@ -107,6 +108,20 @@ const PhotoSection: React.FC = () => {
               <div className="link-text">MAROC</div>
             </Link>
           </div>
+          <div className="link-item">
+            <Link className="link-content" to={"projet-asie"}>
+              <div className="link-text">03</div>
+              <div className="image-container">
+                <img
+                  src={loadedImages[2]}
+                  alt="Asie Project"
+                  className="link-image"
+                  loading="lazy"
+                />
+              </div>
+              <div className="link-text">ASIE</div>
+            </Link>
+          </div>
         </div>
       </div>
       <div
@@ -129,7 +144,7 @@ const PhotoSection: React.FC = () => {
               </div>
               <div className="image-container">
                 <img
-                  src={loadedImages[2]}
+                  src={loadedImages[3]}
                   alt="Formes-Couleurs Project"
                   className="link-image"
                   loading="lazy"
