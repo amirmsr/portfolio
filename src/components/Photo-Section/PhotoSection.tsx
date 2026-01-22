@@ -137,7 +137,7 @@ const PhotoSection: React.FC = () => {
       >
         <div style={{ paddingBottom: "20px" }}>
           <p className="section-title" style={{ fontSize: "1.7rem" }}>
-            projet graphique
+            projet graphique 
           </p>
         </div>
         <div className="link-container">

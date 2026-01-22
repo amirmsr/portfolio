@@ -24,7 +24,7 @@ const Main: React.FC = () => {
   const mobileImageUrl = "https://gzpauqtc6hrhhsyz.public.blob.vercel-storage.com/home%20page/Group%2056-min-eFfmqIjESt4mpuggLff98NPTmw3Y90.png"; 
 
   return (
-    <main className="container text-center mt-5" style={{maxWidth:"1100px", margin:"0 auto"}}>
+    <main className={`container text-center ${styles.mainContainer}`} style={{maxWidth:"1100px", margin:"0 auto"}}>
       <Link className="link1" to="/photo-section">
         <div className="animate__animated animate__fadeIn">
           <img 
