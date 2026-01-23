@@ -140,7 +140,7 @@ const PhotoSection: React.FC = () => {
             projet graphique 
           </p>
         </div>
-        <div className="link-container">
+        {/* <div className="link-container">
           <div className="link-item">
             <Link className="link-content" to={"formes-couleurs"}>
               <div>
@@ -157,7 +157,7 @@ const PhotoSection: React.FC = () => {
               <div className="link-text">FORMES ET COULEURS</div>
             </Link>
           </div>
-        </div>
+        </div> */}
       </div>
     </main>
   );
