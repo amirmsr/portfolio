@@ -6,11 +6,12 @@ import Main from "./components/Main/Main";
 import PhotoSection from "./components/Photo-Section/PhotoSection";
 import MarocGallery from "./components/Photo-Section/Maroc-projet/MarocGallery";
 import RerGallery from "./components/Photo-Section/Rer-projet/RerGallery";
-import Contact from "./components/Contact/Contact";
+
 import FormesCouleursGallery from "./components/Photo-Section/Formes-Couleurs-projet/FormesCouleursGallery";
 import AsieGallery from "./components/Photo-Section/Asie-projet/AsieGallery";
 import About from "./components/About/about";
 import MerchPage from "./components/Merch/MerchPage";
+import Contact from "./components/Contact/Contact";
 
 
 const App: React.FC = () => {
