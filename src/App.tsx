@@ -10,8 +10,8 @@ import RerGallery from "./components/Photo-Section/Rer-projet/RerGallery";
 import FormesCouleursGallery from "./components/Photo-Section/Formes-Couleurs-projet/FormesCouleursGallery";
 import AsieGallery from "./components/Photo-Section/Asie-projet/AsieGallery";
 import MerchPage from "./components/Merch/MerchPage";
-import Contact from "./components/Contact/Contact";
-import About from "./components/About/About";
+import Contact from "./components/Contact/contact";
+import About from "./components/About/about";
 
 
 
