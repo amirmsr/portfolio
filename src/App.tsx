@@ -10,6 +10,7 @@ import Contact from "./components/Contact/contact";
 import FormesCouleursGallery from "./components/Photo-Section/Formes-Couleurs-projet/FormesCouleursGallery";
 import AsieGallery from "./components/Photo-Section/Asie-projet/AsieGallery";
 import About from "./components/About/about";
+import MerchPage from "./components/Merch/MerchPage";
 
 
 const App: React.FC = () => {
@@ -25,6 +26,7 @@ const App: React.FC = () => {
         <Route path="/photo-section/formes-couleurs" element={<FormesCouleursGallery/>}/>
         <Route path="/contact" element={<Contact/>}/>
         <Route path="/about" element={<About/>}/>
+        <Route path="/merch" element={<MerchPage/>}/>
       </Routes>
     </Router>
   );
