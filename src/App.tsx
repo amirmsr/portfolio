@@ -9,9 +9,10 @@ import RerGallery from "./components/Photo-Section/Rer-projet/RerGallery";
 
 import FormesCouleursGallery from "./components/Photo-Section/Formes-Couleurs-projet/FormesCouleursGallery";
 import AsieGallery from "./components/Photo-Section/Asie-projet/AsieGallery";
-import About from "./components/About/about";
 import MerchPage from "./components/Merch/MerchPage";
 import Contact from "./components/Contact/Contact";
+import About from "./components/About/About";
+
 
 
 const App: React.FC = () => {
