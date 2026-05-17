@@ -2,10 +2,9 @@ import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 
 const images = [
-  "https://gzpauqtc6hrhhsyz.public.blob.vercel-storage.com/section%20projet%20/Group%2059-min-vAswo4N0tTiOm2nSTJcNNiCentvzXS.png",
+  "https://gzpauqtc6hrhhsyz.public.blob.vercel-storage.com/section%20projet%20/Group-67-_1_.webp",
   "https://gzpauqtc6hrhhsyz.public.blob.vercel-storage.com/section%20projet%20/Group%2057-min-6nQilHxzD7dQLYLXS5p1JtFda5M9gR.png",
-  "https://gzpauqtc6hrhhsyz.public.blob.vercel-storage.com/section%20projet%20/Group%2078.png",/* 
-  "https://gzpauqtc6hrhhsyz.public.blob.vercel-storage.com/section%20projet%20/Group-79.webp", */
+  "https://gzpauqtc6hrhhsyz.public.blob.vercel-storage.com/section%20projet%20/Group%2059-min-vAswo4N0tTiOm2nSTJcNNiCentvzXS.png",
 ];
 
 const PhotoSection: React.FC = () => {
@@ -76,26 +75,25 @@ const PhotoSection: React.FC = () => {
       >
         <div style={{ paddingBottom: "20px" }}>
           <p className="section-title" style={{ fontSize: "1.7rem" }}>
-            projet photographique
+            projets photographiques
           </p>
         </div>
         <div className="link-container">
           <div className="link-item">
-            <Link className="link-content" to={"projet-rer"}>
-              <div>
-                <div className="link-text">01</div>
-              </div>
+            <Link className="link-content" to={"projet-couleur"}>
+              <div className="link-text">01</div>
               <div className="image-container">
                 <img
                   src={loadedImages[0]}
-                  alt="RER Project"
+                  alt="Couleur Project"
                   className="link-image"
                   loading="lazy"
                 />
               </div>
-              <div className="link-text">SOUTERRAIN</div>
+              <div className="link-text">Couleur des rues</div>
             </Link>
           </div>
+
           <div className="link-item">
             <Link className="link-content" to={"projet-maroc"}>
               <div className="link-text">02</div>
@@ -111,17 +109,19 @@ const PhotoSection: React.FC = () => {
             </Link>
           </div>
           <div className="link-item">
-            <Link className="link-content" to={"projet-asie"}>
-              <div className="link-text">03</div>
+            <Link className="link-content" to={"projet-rer"}>
+              <div>
+                <div className="link-text">03</div>
+              </div>
               <div className="image-container">
                 <img
                   src={loadedImages[2]}
-                  alt="Asie Project"
+                  alt="RER Project"
                   className="link-image"
                   loading="lazy"
                 />
               </div>
-              <div className="link-text">ASIE</div>
+              <div className="link-text">SOUTERRAIN</div>
             </Link>
           </div>
         </div>
@@ -135,11 +135,11 @@ const PhotoSection: React.FC = () => {
           marginTop: "80px",
         }}
       >
-        <div style={{ paddingBottom: "20px" }}>
+        {/*  <div style={{ paddingBottom: "20px" }}>
           <p className="section-title" style={{ fontSize: "1.7rem" }}>
             projet graphique 
           </p>
-        </div>
+        </div> */}
         {/* <div className="link-container">
           <div className="link-item">
             <Link className="link-content" to={"formes-couleurs"}>

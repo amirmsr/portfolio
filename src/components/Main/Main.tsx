@@ -20,8 +20,8 @@ const Main: React.FC = () => {
     };
   }, []);
 
-  const desktopImageUrl = "https://gzpauqtc6hrhhsyz.public.blob.vercel-storage.com/home%20page/Group%2055-rogSS5Hr1nFoieQmQFMEJGr29H2Bp4.png";
-  const mobileImageUrl = "https://gzpauqtc6hrhhsyz.public.blob.vercel-storage.com/home%20page/Group%2056-min-eFfmqIjESt4mpuggLff98NPTmw3Y90.png"; 
+  const desktopImageUrl = "https://gzpauqtc6hrhhsyz.public.blob.vercel-storage.com/home%20page/Group-55.webp";
+  const mobileImageUrl = "https://gzpauqtc6hrhhsyz.public.blob.vercel-storage.com/home%20page/Group-56.webp"; 
 
   return (
     <main className={`container text-center ${styles.mainContainer}`} style={{maxWidth:"1100px", margin:"0 auto"}}>

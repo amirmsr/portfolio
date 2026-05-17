@@ -19,21 +19,14 @@ const About: React.FC = () => {
           <section>
             <p>
               <strong>Amir Mansour</strong> —<br />
-              Photographie, design, graphisme et développement.
+              Photographie et création .
             </p>
-
-
-              Inspiré par le minimalisme, les couleurs vives et les formes
-              abstraites.
-
 
             <p>
-              Je crée des visuels sur Figma, j’explore la photographie à travers
-              différents appareils photos,<p>et je développe des interfaces en
-              pensant avant tout à l’expérience utilisateur.</p> 
+              Contraste, couleurs et minimalisme
             </p>
 
-            <p>Master en développement cloud à Supinfo.</p>
+            <p>Quotidient : expert en management des systèmes d'information</p>
           </section>
 
         </div>
