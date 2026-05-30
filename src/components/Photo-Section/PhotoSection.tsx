@@ -90,7 +90,7 @@ const PhotoSection: React.FC = () => {
                   loading="lazy"
                 />
               </div>
-              <div className="link-text">Couleur des rues</div>
+              <div className="link-text">COULEUR DES RUES</div>
             </Link>
           </div>
 

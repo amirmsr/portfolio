@@ -88,9 +88,9 @@ const CouleurGallery: React.FC = () => {
         margin: "0 auto",
       }}
     >
-      <p style={{ fontSize: "1rem" }}>Couleur des rues</p>
+      <p style={{ fontSize: "1rem" }}>COULEUR DES RUES</p>
       <p style={{ color: "#686868" }}></p>
-      <p style={{ color: "#686868" }}>2025 - Plein de villes</p>
+      <p style={{ color: "#686868" }}>2025 - #####</p>
       <br />
       <br />
 
