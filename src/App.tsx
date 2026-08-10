@@ -28,7 +28,6 @@ const App: React.FC = () => {
         <Route path="/photo-section/projet-couleur" element={<CouleurGallery/>}/>
         <Route path="/contact" element={<Contact/>}/>
         <Route path="/about" element={<About/>}/>
-        <Route path="/merch" element={<MerchPage/>}/>
       </Routes>
     </Router>
   );
