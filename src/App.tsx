@@ -9,7 +9,6 @@ import RerGallery from "./components/Photo-Section/Rer-projet/RerGallery";
 
 
 import CouleurGallery from "./components/Photo-Section/Couleur-projet/CouleurGallery";
-import MerchPage from "./components/Merch/MerchPage";
 import Contact from "./components/Contact/contact";
 import About from "./components/About/about";
 
